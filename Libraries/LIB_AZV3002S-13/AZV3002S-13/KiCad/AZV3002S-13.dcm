@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZV3002S-13
+D Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V
+K
+F https://www.diodes.com//assets/Datasheets/AZV3001.pdf
+$ENDCMP
+#
+#End Doc Library

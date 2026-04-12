@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU18P10Y-TP")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_MCU18P10Y-TP/KiCADv6/2026-02-05_11-18-21.kicad_sym")(options "")(descr ""))
+  (lib (name "LM4040CIM3-5-0")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_LM4040CIM3-5-0/KiCADv6/2026-02-05_11-19-59.kicad_sym")(options "")(descr ""))
+  (lib (name "AZV3002S-13")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LIB_AZV3002S-13/AZV3002S-13/KiCad/AZV3002S-13.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS7A2030PDBVR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPS7A2030PDBVR.kicad_sym")(options "")(descr ""))
+)

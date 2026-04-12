@@ -1,0 +1,18 @@
+.AZV3002S-13 :1 ;Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="OUTPUT1" 2="INPUT1-" 3="INPUT1+" 4="GND" 5="INPUT2+" 6="INPUT2-" 7="OUTPUT2" 8="VCC"
+*MXP 8
+*DFN AZV3002S-13
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AZV3002S-13)
+~!Mouser Part Number (621-AZV3002S-13)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZV3002S-13?qs=ma0NyvTRVt0EcfML8tbxlQ%3D%3D)
+~!Arrow Part Number (AZV3002S-13)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/azv3002s-13/diodes-incorporated?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/AZV3001.pdf)
+~!Height (1.75mm)
+~!3D_Model (AZV3002S-13)
+AZV3002S-13
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
