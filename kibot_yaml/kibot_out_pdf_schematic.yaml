@@ -19,5 +19,5 @@ definitions:
   NAME: pdf_schematic
   COMMENT: Schematic in PDF format
   COLOR_THEME: Altium_Theme
-  DEFAULT_FONT: Times New Roman
+  DEFAULT_FONT: KiCad Font
   DIR: Schematic
