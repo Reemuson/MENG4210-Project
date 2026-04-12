@@ -1,0 +1,812 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Bill of Materials</title>
+<style>
+ .cell-title { vertical-align: bottom; }
+ .cell-info { vertical-align: top; padding: 1em;}
+ .cell-extra-info { vertical-align: top; padding: 1em;}
+ .cell-stats { vertical-align: top; padding: 1em;}
+ .title { font-size:2.5em; font-weight: bold; }
+ .subtitle { font-size:1.5em; font-weight: bold; }
+ .h2 { font-size:1.5em; font-weight: bold; }
+ .td-empty0 { text-align: center; background-color: #F57676;}
+ .td-gen0 { text-align: center; background-color: #DCF5E4;}
+ .td-kicad0 { text-align: center; background-color: #F5DCA9;}
+ .td-user0 { text-align: center; background-color: #DCEFF5;}
+ .td-empty1 { text-align: center; background-color: #FF8080;}
+ .td-gen1 { text-align: center; background-color: #E6FFEE;}
+ .td-kicad1 { text-align: center; background-color: #FFE6B3;}
+ .td-user1 { text-align: center; background-color: #E6F9FF;}
+ .td-nocolor { text-align: center; }
+ .color-ref { margin: 25px 0; }
+ .color-ref th { text-align: left }
+ .color-ref td { padding: 5px 20px; }
+ .head-table { margin-bottom: 2em; }
+ .centered-checkmark { font-size: 30vw; text-align: center; color: green; }
+ .tg-sort-header::-moz-selection{background:0 0}
+ .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
+ .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
+                       border-color:#ffffff transparent;visibility:hidden;opacity:.6}
+ .tg-sort-header:hover:after{visibility:visible}
+ .tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:1}
+ .tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: #0e4e8e; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid #0e4e8e; }
+ .content-table * tr:hover > td { background-color: @bgl@ !important }
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: @bg@; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid @bg@; }
+ .content-table * tr:hover > td { background-color: #3e7ebe !important }
+</style>
+</head>
+<body>
+<table class="head-table">
+<tr>
+ <td rowspan="2">
+ </td>
+ <td colspan="2" class="cell-title">
+  <div class="title">Bill of Materials</div>
+ </td>
+</tr>
+<tr>
+ <td class="cell-info">
+   <b>Schematic</b>: DREAM<br>
+   <b>Variant</b>: PRELIMINARY<br>
+   <b>Revision</b>: + (Unreleased)<br>
+   <b>Date</b>: 2026-04-06<br>
+   <b>KiCad Version</b>: 9.0.7+1<br>
+ </td>
+ <td class="cell-stats">
+   <b>Component Groups</b>: 46<br>
+   <b>Component Count</b>: 115 (per PCB)<br>
+
+   <b>Fitted Components</b>: 114 (per PCB)<br>
+   <b>Number of PCBs</b>: 1<br>
+   <b>Total Components</b>: 114 (for 1 PCBs)<br>
+ </td>
+</tr>
+</table>
+<h2>Component Groups</h2>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th class="th-gen">Row</th>
+   <th class="th-gen">Quantity Per PCB</th>
+   <th class="th-kicad">References</th>
+   <th class="th-kicad">Value</th>
+   <th class="th-kicad">Datasheet</th>
+   <th class="th-kicad">Footprint</th>
+   <th class="th-user">Description</th>
+   <th class="th-user">Manufacturer</th>
+   <th class="th-user">MPN</th>
+   <th class="th-user">Supplier Part Number</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="0">
+   <td class="td-gen0">1</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="C503"></div><div id="C502"></div>C502 C503</td>
+   <td class="td-kicad0">27p</td>
+   <td class="td-kicad0"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">CAP CER 27PF 50V NP0 0603</td>
+   <td class="td-user0">TPK</td>
+   <td class="td-user0">C1608COG1H270JT</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="1">
+   <td class="td-gen1">2</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="C705"></div><div id="C515"></div>C515 C705</td>
+   <td class="td-kicad1">10n</td>
+   <td class="td-kicad1"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608Metric</td>
+   <td class="td-user1">CAP CER 10N 50V X7R 0603</td>
+   <td class="td-user1">TPK</td>
+   <td class="td-user1">C1608X7R1H103KT</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="2">
+   <td class="td-gen0">3</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="C703"></div>C703</td>
+   <td class="td-kicad0">15n</td>
+   <td class="td-kicad0"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">CAP CER 15N 50V X7R 0603</td>
+   <td class="td-user0">TPK</td>
+   <td class="td-user0">C1608X7R1H153KT</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="3">
+   <td class="td-gen1">4</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="C704"></div>C704</td>
+   <td class="td-kicad1">18n</td>
+   <td class="td-kicad1"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608Metric</td>
+   <td class="td-user1">CAP CER 18N 16V X7R 0603</td>
+   <td class="td-user1">TPK</td>
+   <td class="td-user1">C1608X7R1C183KT</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="4">
+   <td class="td-gen0">5</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="C706"></div>C706</td>
+   <td class="td-kicad0">68n</td>
+   <td class="td-kicad0"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">CAP CER 68N 16V X7R 0603</td>
+   <td class="td-user0">TPK</td>
+   <td class="td-user0">C1608X7R1C683KT</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="5">
+   <td class="td-gen1">6</td>
+   <td class="td-gen1">18</td>
+   <td class="td-kicad1"><div id="C708"></div><div id="C702"></div><div id="C701"></div><div id="C616"></div><div id="C614"></div><div id="C613"></div><div id="C610"></div><div id="C604"></div><div id="C602"></div><div id="C601"></div><div id="C510"></div><div id="C509"></div><div id="C508"></div><div id="C507"></div><div id="C505"></div><div id="C501"></div><div id="C403"></div><div id="C401"></div>C401 C403 C501 C505 C507 C508 C509 C510 C601 C602 C604 C610 C613 C614 C616 C701 C702 C708</td>
+   <td class="td-kicad1">100n</td>
+   <td class="td-kicad1"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608Metric</td>
+   <td class="td-user1">CAP CER 100N 16V X7R 0603</td>
+   <td class="td-user1">TPK</td>
+   <td class="td-user1">C1608X7R1C104KT</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="6">
+   <td class="td-gen0">7</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="C606"></div>C606</td>
+   <td class="td-kicad0">180n</td>
+   <td class="td-kicad0"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">CAP CER 180N 10V X5R 0603</td>
+   <td class="td-user0">TPK</td>
+   <td class="td-user0">C1608X5R1A184KT</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="7">
+   <td class="td-gen1">8</td>
+   <td class="td-gen1">4</td>
+   <td class="td-kicad1"><div id="C609"></div><div id="C608"></div><div id="C607"></div><div id="C605"></div>C605 C607 C608 C609</td>
+   <td class="td-kicad1">390n</td>
+   <td class="td-kicad1"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608Metric</td>
+   <td class="td-user1">CAP CER 390N 10V X5R 0603</td>
+   <td class="td-user1">TPK</td>
+   <td class="td-user1">C1608X5R1A394KT</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="8">
+   <td class="td-gen0">9</td>
+   <td class="td-gen0">5</td>
+   <td class="td-kicad0"><div id="C615"></div><div id="C603"></div><div id="C516"></div><div id="C405"></div><div id="C404"></div>C404 C405 C516 C603 C615</td>
+   <td class="td-kicad0">1u</td>
+   <td class="td-kicad0"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">CAP CER 1U 6.3V X5R 0603</td>
+   <td class="td-user0">TPK</td>
+   <td class="td-user0">C1608X5R0J105KT</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="9">
+   <td class="td-gen1">10</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="C506"></div>C506</td>
+   <td class="td-kicad1">4.7u</td>
+   <td class="td-kicad1"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608Metric</td>
+   <td class="td-user1">CAP CER 4.7U 6.3V X5R 0603</td>
+   <td class="td-user1">TPK</td>
+   <td class="td-user1">C1608X5R0J475MT</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="10">
+   <td class="td-gen0">11</td>
+   <td class="td-gen0">4</td>
+   <td class="td-kicad0"><div id="C612"></div><div id="C611"></div><div id="C504"></div><div id="C402"></div>C402 C504 C611 C612</td>
+   <td class="td-kicad0">10u</td>
+   <td class="td-kicad0"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">CAP CER 10U 6.3V X7R 0603</td>
+   <td class="td-user0">TPK</td>
+   <td class="td-user0">C1608X7R0J106KT</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="11">
+   <td class="td-gen1">12</td>
+   <td class="td-gen1">6</td>
+   <td class="td-kicad1"><div id="D606"></div><div id="D605"></div><div id="D604"></div><div id="D603"></div><div id="D602"></div><div id="D601"></div>D601 D602 D603 D604 D605 D606</td>
+   <td class="td-kicad1">1N4148WS</td>
+   <td class="td-kicad1"><a href="https://www.vishay.com/docs/85751/1n4148ws.pdf">https://www.vishay.com/docs/85751/1n4148ws.pdf</a></td>
+   <td class="td-kicad1">D_SOD-323_HandSoldering</td>
+   <td class="td-user1">DIODE STANDARD 75V 150MA SOD323</td>
+   <td class="td-user1">Diotec Semiconductor</td>
+   <td class="td-user1">1N4148WS</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="13">
+   <td class="td-gen0">13</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="D501"></div>D501</td>
+   <td class="td-kicad0">LED</td>
+   <td class="td-kicad0"><a href="https://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf">https://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf</a></td>
+   <td class="td-kicad0">LED_0805_2012Metric</td>
+   <td class="td-user0">LED GRN CLEAR SMD</td>
+   <td class="td-user0">Lite-On Inc.</td>
+   <td class="td-user0">LTST-C170KGKT</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="14">
+   <td class="td-gen1">14</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="D502"></div>D502</td>
+   <td class="td-kicad1">LED</td>
+   <td class="td-kicad1"><a href="https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf">https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf</a></td>
+   <td class="td-kicad1">LED_0805_2012Metric</td>
+   <td class="td-user1">LED RED CLEAR SMD</td>
+   <td class="td-user1">Lite-On Inc.</td>
+   <td class="td-user1">LTST-C170KRKT</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="15">
+   <td class="td-gen0">15</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="F401"></div>F401</td>
+   <td class="td-kicad0">MF-MSMF030-2</td>
+   <td class="td-kicad0"><a href="https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf">https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf</a></td>
+   <td class="td-kicad0">R_1812_4532Metric</td>
+   <td class="td-user0">PTC RESET FUSE 30V 300MA 1812</td>
+   <td class="td-user0">Bourns Inc.</td>
+   <td class="td-user0">Bourns Inc.</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="16">
+   <td class="td-gen1">16</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="FB501"></div>FB501</td>
+   <td class="td-kicad1">?UNKWN?</td>
+   <td class="td-empty1">~</td>
+   <td class="td-empty1"></td>
+   <td class="td-user1">Ferrite bead, small symbol</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="17">
+   <td class="td-gen0">17</td>
+   <td class="td-gen0">3</td>
+   <td class="td-kicad0"><div id="J603"></div><div id="J602"></div><div id="J601"></div>J601 J602 J603</td>
+   <td class="td-kicad0">1-1337535-0</td>
+   <td class="td-kicad0"><a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1337535&DocType=Customer+Drawing&DocLang=English">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1337535&DocType=Customer+Drawing&DocLang=English</a></td>
+   <td class="td-kicad0">BNC_TEConnectivity_1478204_Vertical</td>
+   <td class="td-user0">CONN BNC JACK STR 50 OHM PCB</td>
+   <td class="td-user0">TE Connectivity AMP Connectors</td>
+   <td class="td-user0">1-1337535-0</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="18">
+   <td class="td-gen1">18</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="J402"></div>J402</td>
+   <td class="td-kicad1">EBWA-02-B</td>
+   <td class="td-kicad1"><a href="https://app.adam-tech.com/products/download/data_sheet/204240/ebwa-xx-b-data-sheet.pdf">https://app.adam-tech.com/products/download/data_sheet/204240/ebwa-xx-b-data-sheet.pdf</a></td>
+   <td class="td-kicad1">TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</td>
+   <td class="td-user1">EURO BLOCK 2P</td>
+   <td class="td-user1">Adam Tech</td>
+   <td class="td-user1">EBWA-02-B</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="19">
+   <td class="td-gen0">19</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="J701"></div><div id="J401"></div>J401 J701</td>
+   <td class="td-kicad0">KLDX-0202-B</td>
+   <td class="td-kicad0"><a href="https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf">https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf</a></td>
+   <td class="td-kicad0">BarrelJack_Kycon_KLDX-0202-xC_Horizontal</td>
+   <td class="td-user0">CONN PWR JACK 2.5X5.5MM SOLDER Generic connector, single row, 01x02, script generated</td>
+   <td class="td-user0">Kycon, Inc. Adam Tech</td>
+   <td class="td-user0">KLDX-0202-B</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="20">
+   <td class="td-gen1">20</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="J501"></div>J501</td>
+   <td class="td-kicad1">USB4105-GF-A</td>
+   <td class="td-kicad1"><a href="https://gct.co/files/specs/usb4105-spec.pdf">https://gct.co/files/specs/usb4105-spec.pdf</a></td>
+   <td class="td-kicad1">USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</td>
+   <td class="td-user1">CONN RCP USB2.0 TYP C 16P SMD RA</td>
+   <td class="td-user1">GCT</td>
+   <td class="td-user1">USB4105-GF-A</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="21">
+   <td class="td-gen0">21</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="Q401"></div>Q401</td>
+   <td class="td-kicad0">MCU18P10Y-TP</td>
+   <td class="td-kicad0"><a href="https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf">https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</a></td>
+   <td class="td-kicad0">DPAK_MCC</td>
+   <td class="td-user0">MOSFET P-CH 100V 18A DPAK</td>
+   <td class="td-user0">MCC (Micro Commercial Components)</td>
+   <td class="td-user0">MCU18P10Y-TP</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="22">
+   <td class="td-gen1">22</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="R503"></div>R503</td>
+   <td class="td-kicad1">0</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 0 OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="23">
+   <td class="td-gen0">23</td>
+   <td class="td-gen0">4</td>
+   <td class="td-kicad0"><div id="R510"></div><div id="R509"></div><div id="R508"></div><div id="R507"></div>R507 R508 R509 R510</td>
+   <td class="td-kicad0">22.1</td>
+   <td class="td-kicad0"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">RES 22.1 OHM 1% 1/10W 0603</td>
+   <td class="td-user0">Analog Technologies</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="24">
+   <td class="td-gen1">24</td>
+   <td class="td-gen1">3</td>
+   <td class="td-kicad1"><div id="R620"></div><div id="R619"></div><div id="R615"></div>R615 R619 R620</td>
+   <td class="td-kicad1">100</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 100 OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="25">
+   <td class="td-gen0">25</td>
+   <td class="td-gen0">6</td>
+   <td class="td-kicad0"><div id="R604"></div><div id="R603"></div><div id="R602"></div><div id="R601"></div><div id="R502"></div><div id="R501"></div>R501 R502 R601 R602 R603 R604</td>
+   <td class="td-kicad0">1k</td>
+   <td class="td-kicad0"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">RES 1K OHM 1% 1/10W 0603</td>
+   <td class="td-user0">Analog Technologies</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="26">
+   <td class="td-gen1">26</td>
+   <td class="td-gen1">4</td>
+   <td class="td-kicad1"><div id="R608"></div><div id="R605"></div><div id="R506"></div><div id="R504"></div>R504 R506 R605 R608</td>
+   <td class="td-kicad1">5.11k</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 5.11K OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="27">
+   <td class="td-gen0">27</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R612"></div>R612</td>
+   <td class="td-kicad0">5.62k</td>
+   <td class="td-kicad0"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">RES 5.62K OHM 1% 1/10W 0603</td>
+   <td class="td-user0">Analog Technologies</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="28">
+   <td class="td-gen1">28</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="R704"></div><div id="R703"></div>R703 R704</td>
+   <td class="td-kicad1">7.5k</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 7.5K OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="29">
+   <td class="td-gen0">29</td>
+   <td class="td-gen0">8</td>
+   <td class="td-kicad0"><div id="R708"></div><div id="R707"></div><div id="R706"></div><div id="R624"></div><div id="R614"></div><div id="R613"></div><div id="R611"></div><div id="R505"></div>R505 R611 R613 R614 R624 R706 R707 R708</td>
+   <td class="td-kicad0">10k</td>
+   <td class="td-kicad0"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">RES 10K OHM 1% 1/10W 0603</td>
+   <td class="td-user0">Analog Technologies</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="30">
+   <td class="td-gen1">30</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="R607"></div>R607</td>
+   <td class="td-kicad1">11k</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 11K OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="31">
+   <td class="td-gen0">31</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="R702"></div><div id="R701"></div>R701 R702</td>
+   <td class="td-kicad0">12.1k</td>
+   <td class="td-kicad0"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">RES 12.1K OHM 1% 1/10W 0603</td>
+   <td class="td-user0">Analog Technologies</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="32">
+   <td class="td-gen1">32</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="R616"></div>R616</td>
+   <td class="td-kicad1">18.2k</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 18.2K OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="33">
+   <td class="td-gen0">33</td>
+   <td class="td-gen0">3</td>
+   <td class="td-kicad0"><div id="R705"></div><div id="R617"></div><div id="R610"></div>R610 R617 R705</td>
+   <td class="td-kicad0">20k</td>
+   <td class="td-kicad0"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">RES 20K OHM 1% 1/10W 0603</td>
+   <td class="td-user0">Analog Technologies</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="34">
+   <td class="td-gen1">34</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="R609"></div><div id="R606"></div>R606 R609</td>
+   <td class="td-kicad1">27.4k</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 27.4K OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="35">
+   <td class="td-gen0">35</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R623"></div>R623</td>
+   <td class="td-kicad0">39.2k</td>
+   <td class="td-kicad0"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">RES 39.2K OHM 1% 1/10W 0603</td>
+   <td class="td-user0">Analog Technologies</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="36">
+   <td class="td-gen1">36</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="R402"></div><div id="R401"></div>R401 R402</td>
+   <td class="td-kicad1">100k</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 100K OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="37">
+   <td class="td-gen0">37</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R618"></div>R618</td>
+   <td class="td-kicad0">249k</td>
+   <td class="td-kicad0"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">RES 249K OHM 1% 1/10W 0603</td>
+   <td class="td-user0">Analog Technologies</td>
+   <td class="td-empty0"></td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="38">
+   <td class="td-gen1">38</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="R622"></div><div id="R621"></div>R621 R622</td>
+   <td class="td-kicad1">2.2M</td>
+   <td class="td-kicad1"><a href="https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">RES 2.2M OHM 1% 1/10W 0603</td>
+   <td class="td-user1">Analog Technologies</td>
+   <td class="td-empty1"></td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="39">
+   <td class="td-gen0">39</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="SW501"></div>SW501</td>
+   <td class="td-kicad0">PTS526SK15SMTR2 LFS</td>
+   <td class="td-kicad0"><a href="https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts526-series-datasheet?assetguid=bb56c1b4-71ca-4262-9bd7-cf3e3c572bb3">https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts526-series-datasheet?assetguid=bb56c1b4-71ca-4262-9bd7-cf3e3c572bb3</a></td>
+   <td class="td-kicad0">SW_SPST_PTS526xxxSMTR</td>
+   <td class="td-user0">SWITCH TACTILE SPST-NO 0.05A 12V</td>
+   <td class="td-user0">C&K</td>
+   <td class="td-user0">PTS526SK15SMTR2 LFS</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="40">
+   <td class="td-gen1">40</td>
+   <td class="td-gen1">3</td>
+   <td class="td-kicad1"><div id="U702"></div><div id="U701"></div><div id="U603"></div>U603 U701 U702</td>
+   <td class="td-kicad1">LM358LVIDR</td>
+   <td class="td-kicad1"><a href="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https://www.ti.com/lit/gpn/lm324lv">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https://www.ti.com/lit/gpn/lm324lv</a></td>
+   <td class="td-kicad1">SOIC-8_3.9x4.9mm_P1.27mm</td>
+   <td class="td-user1">IC OPAMP GP 2 CIRCUIT 8SOIC</td>
+   <td class="td-user1">Texas Instruments</td>
+   <td class="td-user1">LM358LVIDR</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="41">
+   <td class="td-gen0">41</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="U502"></div>U502</td>
+   <td class="td-kicad0">STM32G441KBT6</td>
+   <td class="td-kicad0"><a href="https://www.st.com/resource/en/datasheet/stm32g441cb.pdf">https://www.st.com/resource/en/datasheet/stm32g441cb.pdf</a></td>
+   <td class="td-kicad0">LQFP-32_7x7mm_P0.8mm</td>
+   <td class="td-user0">IC MCU 32BIT 128KB FLASH 32LQFP</td>
+   <td class="td-user0">STMicroelectronics</td>
+   <td class="td-user0">STM32G441KBT6</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="42">
+   <td class="td-gen1">42</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="U401"></div>U401</td>
+   <td class="td-kicad1">TPS7A2030PDBVR</td>
+   <td class="td-kicad1"><a href="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http://www.ti.com/lit/gpn/tps7a20">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http://www.ti.com/lit/gpn/tps7a20</a></td>
+   <td class="td-kicad1">SOT-23-5</td>
+   <td class="td-user1">IC REG LINEAR 3V 300MA SOT23-5</td>
+   <td class="td-user1">Texas Instruments</td>
+   <td class="td-user1">TPS7A2030PDBVR</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="43">
+   <td class="td-gen0">43</td>
+   <td class="td-gen0">4</td>
+   <td class="td-kicad0"><div id="U605"></div><div id="U604"></div><div id="U602"></div><div id="U601"></div>U601 U602 U604 U605</td>
+   <td class="td-kicad0">TSV912AIDR</td>
+   <td class="td-kicad0"><a href="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https://www.ti.com/lit/gpn/tsv912">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https://www.ti.com/lit/gpn/tsv912</a></td>
+   <td class="td-kicad0">SOIC-8_3.9x4.9mm_P1.27mm</td>
+   <td class="td-user0">IC OPAMP GP 2 CIRCUIT 8SOIC</td>
+   <td class="td-user0">Texas Instruments</td>
+   <td class="td-user0">TSV912AIDR</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="44">
+   <td class="td-gen1">44</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="U501"></div>U501</td>
+   <td class="td-kicad1">USBLC6-2SC6</td>
+   <td class="td-kicad1"><a href="https://www.st.com/resource/en/datasheet/cd00050750.pdf">https://www.st.com/resource/en/datasheet/cd00050750.pdf</a></td>
+   <td class="td-kicad1">SOT-23-6</td>
+   <td class="td-user1">TVS DIODE 5.25VWM 17VC SOT23-6</td>
+   <td class="td-user1">STMicroelectronics</td>
+   <td class="td-user1">USBLC6-2SC6</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="45">
+   <td class="td-gen0">45</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="Y501"></div>Y501</td>
+   <td class="td-kicad0">ATS08A-E</td>
+   <td class="td-kicad0"><a href="https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Crystals/crystals-ATS-ATSSM-datasheet.pdf">https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Crystals/crystals-ATS-ATSSM-datasheet.pdf</a></td>
+   <td class="td-kicad0">Crystal_HC49-4H_Vertical</td>
+   <td class="td-user0">CRYSTAL 8.0000MHZ 20PF TH</td>
+   <td class="td-user0">CTS-Frequency Controls</td>
+   <td class="td-user0">ATS08A-E</td>
+   <td class="td-empty0"></td>
+  </tr>
+ </tbody>
+</table>
+<h2>Optional components (DNF=Do Not Fit)</h2>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th class="th-gen">Row</th>
+   <th class="th-gen">Quantity Per PCB</th>
+   <th class="th-kicad">References</th>
+   <th class="th-kicad">Value</th>
+   <th class="th-kicad">Datasheet</th>
+   <th class="th-kicad">Footprint</th>
+   <th class="th-user">Description</th>
+   <th class="th-user">Manufacturer</th>
+   <th class="th-user">MPN</th>
+   <th class="th-user">Supplier Part Number</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="12">
+   <td class="td-gen0">1</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="D401"></div>D401</td>
+   <td class="td-kicad0">D3Z10BF-7</td>
+   <td class="td-kicad0"><a href="https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf">https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf</a></td>
+   <td class="td-kicad0">D_SOD-323_HandSoldering</td>
+   <td class="td-user0">DIODE ZENER 10V 400MW SOD323F</td>
+   <td class="td-user0">Diodes Incorporated</td>
+   <td class="td-user0">D3Z10BF-7</td>
+   <td class="td-empty0"></td>
+  </tr>
+ </tbody>
+</table>
+<table class="color-ref">
+<tr><th>Color reference for columns:</th></tr>
+<tr><td class="td-kicad0">KiCad Fields (default)</td></tr>
+<tr><td class="td-gen0">Generated Fields</td></tr>
+<tr><td class="td-user0">User Fields</td></tr>
+<tr><td class="td-empty0">Empty Fields</td></tr>
+</table>
+<script charset="utf-8">
+  var TGSort = window.TGSort || function(n) {
+    "use strict";
+    function r(n) { return n ? n.length : 0 }
+    function t(n, t, e, o = 0) { for (e = r(n); o < e; ++o) t(n[o], o) }
+    function e(n) { return n.split("").reverse().join("") }
+    function o(n) {
+      var e = n[0];
+      return t(n, function(n) {
+        for (; !n.startsWith(e);) e = e.substring(0, r(e) - 1)
+      }), r(e)
+    }
+    function u(n, r, e = []) {
+      return t(n, function(n) {
+        r(n) && e.push(n)
+      }), e
+    }
+    var a = parseFloat;
+    function i(n, r) {
+      return function(t) {
+        var e = "";
+        return t.replace(n, function(n, t, o) {
+          return e = t.replace(r, "") + "." + (o || "").substring(1)
+        }), a(e)
+      }
+    }
+    var s = i(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g, /,/g),
+      c = i(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g, /\./g);
+    function f(n) {
+      var t = a(n);
+      return !isNaN(t) && r("" + t) + 1 >= r(n) ? t : NaN
+    }
+    function d(n) {
+      var e = [],
+        o = n;
+      return t([f, s, c], function(u) {
+        var a = [],
+          i = [];
+        t(n, function(n, r) {
+          r = u(n), a.push(r), r || i.push(n)
+        }), r(i) < r(o) && (o = i, e = a)
+      }), r(u(o, function(n) {
+        return n == o[0]
+      })) == r(o) ? e : []
+    }
+    function v(n) {
+      if ("TABLE" == n.nodeName) {
+        for (var a = function(r) {
+            var e, o, u = [],
+              a = [];
+            return function n(r, e) {
+              e(r), t(r.childNodes, function(r) {
+                n(r, e)
+              })
+            }(n, function(n) {
+              "TR" == (o = n.nodeName) ? (e = [], u.push(e), a.push(n)) : "TD" != o && "TH" != o || e.push(n)
+            }), [u, a]
+          }(), i = a[0], s = a[1], c = r(i), f = c > 1 && r(i[0]) < r(i[1]) ? 1 : 0, v = f + 1, p = i[f], h = r(p), l = [], g = [], N = [], m = v; m < c; ++m) {
+          for (var T = 0; T < h; ++T) {
+            r(g) < h && g.push([]);
+            var C = i[m][T],
+              L = C.textContent || C.innerText || "";
+            g[T].push(L.trim())
+          }
+          N.push(m - v)
+        }
+        t(p, function(n, t) {
+          l[t] = 0;
+          var a = n.classList;
+          a.add("tg-sort-header"), n.addEventListener("click", function() {
+            var n = l[t];
+            ! function() {
+              for (var n = 0; n < h; ++n) {
+                var r = p[n].classList;
+                r.remove("tg-sort-asc"), r.remove("tg-sort-desc"), l[n] = 0
+              }
+            }(), (n = 1 == n ? -1 : +!n) && a.add(n > 0 ? "tg-sort-asc" : "tg-sort-desc"), l[t] = n;
+            var i, f = g[t],
+              m = function(r, t) {
+                return n * f[r].localeCompare(f[t]) || n * (r - t)
+              },
+              T = function(n) {
+                var t = d(n);
+                if (!r(t)) {
+                  var u = o(n),
+                    a = o(n.map(e));
+                  t = d(n.map(function(n) {
+                    return n.substring(u, r(n) - a)
+                  }))
+                }
+                return t
+              }(f);
+            (r(T) || r(T = r(u(i = f.map(Date.parse), isNaN)) ? [] : i)) && (m = function(r, t) {
+              var e = T[r],
+                o = T[t],
+                u = isNaN(e),
+                a = isNaN(o);
+              return u && a ? 0 : u ? -n : a ? n : e > o ? n : e < o ? -n : n * (r - t)
+            });
+            var C, L = N.slice();
+            L.sort(m);
+            for (var E = v; E < c; ++E)(C = s[E].parentNode).removeChild(s[E]);
+            for (E = v; E < c; ++E) C.appendChild(s[v + L[E - v]])
+          })
+        })
+      }
+    }
+    n.addEventListener("DOMContentLoaded", function() {
+      for (var t = n.getElementsByClassName("content-table"), e = 0; e < r(t); ++e) try {
+        v(t[e])
+      } catch (n) {}
+    })
+  }(document)
+</script>
+</body></html>
