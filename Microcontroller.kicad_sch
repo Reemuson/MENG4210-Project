@@ -6218,7 +6218,7 @@
 		)
 		(uuid "24c8c6d4-1fe7-44a0-9a06-e58446183f3d")
 	)
-	(label "VBUS_RAW"
+	(label "VBUS"
 		(at 201.93 160.02 0)
 		(effects
 			(font
@@ -7246,7 +7246,7 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VUSB"
 			(at 238.76 156.845 0)
 			(effects
 				(font
@@ -10030,7 +10030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VUSB"
 			(at 247.65 153.67 0)
 			(effects
 				(font
@@ -10056,7 +10056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
 			(at 247.65 158.75 0)
 			(effects
 				(font

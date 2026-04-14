@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+### Added
+
+-   Added some silkscreen flair
+-   Broke out unused STM32 pins to vias
+-   Added pin 1 indicator to JTAG header
+
+## Fixed
+
+-   Changed VBUS_RAW to VBUS
+-   Changed VBUS to VUSB
+
 ## [1.0.1] - 2026-04-14
 
 ### Added

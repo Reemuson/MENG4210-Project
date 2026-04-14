@@ -6726,7 +6726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VUSB"
 			(at 82.55 121.92 0)
 			(effects
 				(font
@@ -6752,7 +6752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
 			(at 82.55 127 0)
 			(effects
 				(font
