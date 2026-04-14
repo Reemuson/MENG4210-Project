@@ -1,7 +1,7 @@
 ** Drc report for DREAM.kicad_pcb **
-** Created on 2026-04-14T14:05:02+0000 **
+** Created on 2026-04-14T14:23:19+0000 **
 
-** Found 113 DRC violations **
+** Found 115 DRC violations **
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(195.52 mm, 132.02 mm): Footprint R612
@@ -305,6 +305,12 @@
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(196.295 mm, 147.895 mm): Footprint C615
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    ; warning
+    @(225.238 mm, 104.7404 mm): PCB text 'V-' on B.Silkscreen
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    ; warning
+    @(219.2436 mm, 104.7404 mm): PCB text 'V+' on B.Silkscreen
 [drill_out_of_range]: Hole size out of range (rule 'MENG4210 Minimum Non-plated Hole Size' min hole 0.8000 mm; actual 0.6500 mm)
     ; error (excluded)
     @(256.22 mm, 150.39 mm): NPTH pad of J502
