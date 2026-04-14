@@ -66,23 +66,37 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">d1d9e8f</textvar>
-    <textvar name="GIT_HASH_SCH">d1d9e8f</textvar>
+    <textvar name="GIT_HASH_PCB">53ebe71</textvar>
+    <textvar name="GIT_HASH_SCH">53ebe71</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Project</textvar>
     <textvar name="PROJECT_NAME">MENG420 PROJ</textvar>
-    <textvar name="RELEASE_BODY_1.0.0"/>
-    <textvar name="RELEASE_BODY_1.0.1"/>
+    <textvar name="RELEASE_BODY_1.0.0">___________________________________
+
+Added
+
+-   Schematic capture
+
+-   Preliminary PCB layout</textvar>
+    <textvar name="RELEASE_BODY_1.0.1">___________________________________
+
+Added
+
+-   Ground pour underneath XTAL.
+
+-   Untented via flag set
+
+-   Production files</textvar>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">14-Apr-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-04-14</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0"/>
-    <textvar name="RELEASE_TITLE_1.0.1"/>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-14</textvar>
+    <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.0</textvar>
+    <textvar name="REVISION">1.0.1</textvar>
     <textvar name="SHEET_NAME_1">COVER PAGE</textvar>
     <textvar name="SHEET_NAME_10">................................</textvar>
     <textvar name="SHEET_NAME_11">................................</textvar>
@@ -128,7 +142,7 @@
       <title_block>
         <title/>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.1</rev>
         <date>Date2</date>
         <source>DREAM.kicad_sch</source>
         <comment number="1" value=""/>
@@ -146,7 +160,7 @@
       <title_block>
         <title>BLOCK DIAGRAM</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.1</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -164,7 +178,7 @@
       <title_block>
         <title>ARCHITECTURE</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.1</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -182,7 +196,7 @@
       <title_block>
         <title>POWER</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.1</rev>
         <date>Date2</date>
         <source>Power.kicad_sch</source>
         <comment number="1" value=""/>
@@ -200,7 +214,7 @@
       <title_block>
         <title>DIGITAL AND HMI</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.1</rev>
         <date>Date2</date>
         <source>Microcontroller.kicad_sch</source>
         <comment number="1" value=""/>
@@ -218,7 +232,7 @@
       <title_block>
         <title>ANALOGUE INPUTS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.1</rev>
         <date>Date2</date>
         <source>Analogue-Inputs.kicad_sch</source>
         <comment number="1" value=""/>
@@ -236,7 +250,7 @@
       <title_block>
         <title>ANALOGUE OUTPUTS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.1</rev>
         <date>Date2</date>
         <source>Analogue-Outputs.kicad_sch</source>
         <comment number="1" value=""/>
@@ -254,7 +268,7 @@
       <title_block>
         <title>REVISION HISTORY</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.1</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>

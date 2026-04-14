@@ -1,7 +1,7 @@
 ** Drc report for DREAM.kicad_pcb **
-** Created on 2026-04-14T14:52:47+0000 **
+** Created on 2026-04-14T15:59:40+0000 **
 
-** Found 115 DRC violations **
+** Found 144 DRC violations **
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(195.52 mm, 132.02 mm): Footprint R612
@@ -305,6 +305,93 @@
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(196.295 mm, 147.895 mm): Footprint C615
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(194.8088 mm, 133.8488 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(247.5 mm, 150.25 mm): Reference field of U502
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(231.1816 mm, 157.4708 mm): Reference field of C510
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(191.075 mm, 125.035 mm): Reference field of C607
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(248.75 mm, 142.18 mm): Reference field of F501
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(199.9818 mm, 158.365 mm): Segment of D501 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(199.9818 mm, 160.285 mm): Segment of D501 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(202.6668 mm, 158.365 mm): Segment of D501 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(191.52 mm, 140.275 mm): Reference field of R623
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(254.335001 mm, 137.49 mm): Segment of D503 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(254.335001 mm, 141.79 mm): Segment of D503 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(212.03 mm, 143.45 mm): Reference field of R613
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(230.445 mm, 127.575 mm): Reference field of C705
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(199.9818 mm, 154.555 mm): Segment of D502 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(199.9818 mm, 156.475 mm): Segment of D502 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(202.6668 mm, 154.555 mm): Segment of D502 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(236.5156 mm, 155.184801 mm): Reference field of C509
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(191.075 mm, 139.005 mm): Reference field of C608
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(248.86 mm, 133.925 mm): Reference field of C505
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(228.7432 mm, 141.9768 mm): Reference field of R507
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(193.135 mm, 120.61 mm): Segment of U604 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(193.135 mm, 134.58 mm): Segment of U603 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(216.475 mm, 114.24 mm): Reference field of C707
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(239.97 mm, 135.0 mm): Reference field of C401
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(248.86 mm, 137.1 mm): Reference field of C508
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(222.7488 mm, 114.6464 mm): Reference field of U702
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(229.81 mm, 158.69 mm): Reference field of C511
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(232.375001 mm, 138.265 mm): Segment of Y501 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(232.375001 mm, 135.83 mm): Arc of Y501 on F.Silkscreen
 [nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
     ; warning
     @(225.238 mm, 104.7404 mm): PCB text 'V-' on B.Silkscreen
