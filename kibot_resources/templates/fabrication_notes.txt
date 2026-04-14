@@ -34,14 +34,14 @@ FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE			${bb_w_mm} × ${bb_h_mm} mm
+	BOARD SIZE				${bb_w_mm} × ${bb_h_mm} mm
 	BOARD THICKNESS		${thickness_mm} mm
 	TRACE WIDTH			${track_mm} mm
 	TRACE TO TRACE		${clearance_mm} mm
-	MIN. HOLE (PTH)		${drill_pth_real_mm} mm
-	MIN. HOLE (NPTH)	${drill_npth_real_mm} mm
-	ANNULAR RING		${oar_mm} mm
+	MIN. HOLE (PTH)			${drill_pth_real_mm} mm
+	MIN. HOLE (NPTH)		${drill_npth_real_mm} mm
+	ANNULAR RING			${oar_mm} mm
 	COPPER TO HOLE		${c2h_mm} mm
 	COPPER TO EDGE		${c2e_mm} mm
-	HOLE TO HOLE		${h2h_mm} mm
+	HOLE TO HOLE			${h2h_mm} mm
 #?stackup and impedance_controlled

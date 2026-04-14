@@ -2318,6 +2318,29 @@
 		)
 		(uuid "e20d3103-8fe3-4738-8cbd-a49721d2cb51")
 	)
+	(text_box "DESIGN NOTE:\nThe 0.61V VREF is generated to bias the output to 0.61V, with A_{v} ≈ 24.9 this gives a maximal headroom."
+		(exclude_from_sim no)
+		(at 250.19 113.03 0)
+		(size 63.5 8.89)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e2831cf2-c746-41b3-946b-25a6a9e728c7")
+	)
 	(text_box "DESIGN NOTE:\nNon-inverting integrator used to integrate ECG_FILT over a large time constant to return an error signal SERVO_OUT fed into the gain stage UxA, ensuring EGC_OUT is biased to VREF_EGC for maximum headroom."
 		(exclude_from_sim no)
 		(at 254 95.25 0)

@@ -5,7 +5,7 @@
 	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
 	(paper "A4")
 	(title_block
-		(title "PROJECT ARCHITECTURE")
+		(title "ARCHITECTURE")
 		(date "2026-04-06")
 		(rev "${REVISION}")
 		(company "${COMPANY}")

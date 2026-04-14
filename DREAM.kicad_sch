@@ -1716,7 +1716,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c5103ceb-5325-4a84-a025-9638a412984e")
-		(property "Sheetname" "PROJECT ARCHITECTURE"
+		(property "Sheetname" "ARCHITECTURE"
 			(at 299.72 312.6609 0)
 			(effects
 				(font
