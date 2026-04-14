@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+-   Add ground pour underneath uC
+
 ## [1.0.3] - 2026-04-14
 
 ### Changed
