@@ -1,5 +1,5 @@
 ** Drc report for DREAM.kicad_pcb **
-** Created on 2026-04-14T17:29:42+0000 **
+** Created on 2026-04-14T17:43:30+0000 **
 
 ** Found 152 DRC violations **
 [via_dangling]: Via is not connected or connected on only one layer

@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">d68b78b</textvar>
-    <textvar name="GIT_HASH_SCH">e078e9a</textvar>
+    <textvar name="GIT_HASH_PCB">a15fa82</textvar>
+    <textvar name="GIT_HASH_SCH">a15fa82</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Project</textvar>
     <textvar name="PROJECT_NAME">MENG420 PROJ</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -101,18 +101,26 @@ Added
 -   Changed VBUS_RAW to VBUS
 
 -   Changed VBUS to VUSB</textvar>
-    <textvar name="RELEASE_BODY_1.0.3">Version 1.0.3 not found.</textvar>
-    <textvar name="RELEASE_BODY_1.1.0"/>
+    <textvar name="RELEASE_BODY_1.0.3">___________________________________
+
+Changed
+
+-   Crystal oscillator layout, isolated ground pour, ground perimeter</textvar>
+    <textvar name="RELEASE_BODY_1.1.0">___________________________________
+
+Fixed
+
+-   Add ground pour underneath uC</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">15-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-15</textvar>
+    <textvar name="RELEASE_DATE">14-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.2">Version 1.0.2 - 2026-04-14</textvar>
-    <textvar name="RELEASE_TITLE_1.0.3">Version 1.0.3 not found.</textvar>
-    <textvar name="RELEASE_TITLE_1.1.0"/>
+    <textvar name="RELEASE_TITLE_1.0.3">Version 1.0.3 - 2026-04-14</textvar>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 - 2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.3+ (Unreleased)</textvar>
+    <textvar name="REVISION">1.1.0</textvar>
     <textvar name="SHEET_NAME_1">COVER PAGE</textvar>
     <textvar name="SHEET_NAME_10">................................</textvar>
     <textvar name="SHEET_NAME_11">................................</textvar>
@@ -153,12 +161,12 @@ Added
     <textvar name="SHEET_NAME_7">ANALOGUE OUTPUTS</textvar>
     <textvar name="SHEET_NAME_8">REVISION HISTORY</textvar>
     <textvar name="SHEET_NAME_9">................................</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.3+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>DREAM.kicad_sch</source>
         <comment number="1" value=""/>
@@ -176,7 +184,7 @@ Added
       <title_block>
         <title>BLOCK DIAGRAM</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.3+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -194,7 +202,7 @@ Added
       <title_block>
         <title>ARCHITECTURE</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.3+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -212,7 +220,7 @@ Added
       <title_block>
         <title>POWER</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.3+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Power.kicad_sch</source>
         <comment number="1" value=""/>
@@ -230,7 +238,7 @@ Added
       <title_block>
         <title>DIGITAL AND HMI</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.3+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Microcontroller.kicad_sch</source>
         <comment number="1" value=""/>
@@ -248,7 +256,7 @@ Added
       <title_block>
         <title>ANALOGUE INPUTS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.3+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Analogue-Inputs.kicad_sch</source>
         <comment number="1" value=""/>
@@ -266,7 +274,7 @@ Added
       <title_block>
         <title>ANALOGUE OUTPUTS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.3+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Analogue-Outputs.kicad_sch</source>
         <comment number="1" value=""/>
@@ -284,7 +292,7 @@ Added
       <title_block>
         <title>REVISION HISTORY</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.3+ (Unreleased)</rev>
+        <rev>1.1.0</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
