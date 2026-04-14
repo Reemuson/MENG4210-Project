@@ -56,18 +56,18 @@
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE			100.000 × 60.000 mm
+	BOARD SIZE				100.000 × 60.000 mm
 	BOARD THICKNESS		1.600 mm
 	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
-	MIN. HOLE (PTH)		0.300 mm
-	MIN. HOLE (NPTH)	0.650 mm
-	ANNULAR RING		0.150 mm
+	MIN. HOLE (PTH)			0.300 mm
+	MIN. HOLE (NPTH)		0.650 mm
+	ANNULAR RING			0.150 mm
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
-	HOLE TO HOLE		0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">45c44fe</textvar>
-    <textvar name="GIT_HASH_SCH">45c44fe</textvar>
+	HOLE TO HOLE			0.254 mm</textvar>
+    <textvar name="GIT_HASH_PCB">e078e9a</textvar>
+    <textvar name="GIT_HASH_SCH">e078e9a</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Project</textvar>
     <textvar name="PROJECT_NAME">MENG420 PROJ</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -75,8 +75,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">13-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-13</textvar>
+    <textvar name="RELEASE_DATE">15-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-15</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -123,7 +123,7 @@
     <textvar name="SHEET_NAME_7">ANALOGUE OUTPUTS</textvar>
     <textvar name="SHEET_NAME_8">REVISION HISTORY</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -160,9 +160,9 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/PROJECT ARCHITECTURE/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
+    <sheet number="3" name="/ARCHITECTURE/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
       <title_block>
-        <title>PROJECT ARCHITECTURE</title>
+        <title>ARCHITECTURE</title>
         <company>RYAN DYNAMICS</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
@@ -178,7 +178,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/">
+    <sheet number="4" name="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/">
       <title_block>
         <title>POWER</title>
         <company>RYAN DYNAMICS</company>
@@ -196,7 +196,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/">
+    <sheet number="5" name="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/">
       <title_block>
         <title>DIGITAL AND HMI</title>
         <company>RYAN DYNAMICS</company>
@@ -214,7 +214,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/">
+    <sheet number="6" name="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/">
       <title_block>
         <title>ANALOGUE INPUTS</title>
         <company>RYAN DYNAMICS</company>
@@ -232,7 +232,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/">
+    <sheet number="7" name="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/">
       <title_block>
         <title>ANALOGUE OUTPUTS</title>
         <company>RYAN DYNAMICS</company>
@@ -295,7 +295,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>d6900323-4cf2-4e60-a2fa-3e2a1b612e2b</tstamps>
     </comp>
     <comp ref="C402">
@@ -323,7 +323,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>8e133705-6c5f-41ab-8cf5-87cb2714eabc</tstamps>
     </comp>
     <comp ref="C403">
@@ -351,7 +351,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>c2c9eb6d-3c8f-42a7-a0a6-b9c3c1acb957</tstamps>
     </comp>
     <comp ref="C404">
@@ -379,7 +379,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>74bc3242-78d5-4116-aaa0-524c8fddd724</tstamps>
     </comp>
     <comp ref="C405">
@@ -407,7 +407,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>a1b8eaa3-c377-4d0c-b153-43e018010f6a</tstamps>
     </comp>
     <comp ref="D401">
@@ -434,7 +434,7 @@
       <property name="dnp"/>
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>6a882ced-365e-4772-9a4d-83ea26b3763f</tstamps>
     </comp>
     <comp ref="F401">
@@ -470,7 +470,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
       <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>bf02ca44-5855-4650-b76d-53deeeb6e6c6</tstamps>
     </comp>
     <comp ref="FID401">
@@ -507,7 +507,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <property name="ki_fp_filters" value="Fiducial*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>5da9979e-621a-4861-82a4-9db544fc990d</tstamps>
     </comp>
     <comp ref="FID402">
@@ -544,7 +544,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <property name="ki_fp_filters" value="Fiducial*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>84a0f0cd-8876-4fd9-86ef-7cf7643f32d2</tstamps>
     </comp>
     <comp ref="FID403">
@@ -581,7 +581,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <property name="ki_fp_filters" value="Fiducial*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>c17ae12b-7b0c-4733-85a9-e6dcd9e22842</tstamps>
     </comp>
     <comp ref="H401">
@@ -618,7 +618,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>ce91a7f2-bbce-4af7-ad08-7a90d463883e</tstamps>
     </comp>
     <comp ref="H402">
@@ -655,7 +655,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>10cda48e-adc9-44ff-916e-5401391dcac9</tstamps>
     </comp>
     <comp ref="H403">
@@ -692,7 +692,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>1ed94456-2293-48aa-872c-51f2180c6838</tstamps>
     </comp>
     <comp ref="H404">
@@ -729,7 +729,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>55cf5afe-cd67-43bc-9858-2ad7353bab96</tstamps>
     </comp>
     <comp ref="ID401">
@@ -765,7 +765,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="pcb stackup layer id marker fabrication"/>
       <property name="ki_fp_filters" value="STACKUP_ID_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>0ba8947d-9882-41c9-b287-a1bcd7c00991</tstamps>
     </comp>
     <comp ref="J401">
@@ -791,7 +791,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="DC power barrel jack connector"/>
       <property name="ki_fp_filters" value="BarrelJack*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>86519c2a-f101-4149-a6b8-a5bb20913de2</tstamps>
     </comp>
     <comp ref="J402">
@@ -817,20 +817,20 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="screw terminal"/>
       <property name="ki_fp_filters" value="TerminalBlock*:*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>04199b65-4a5e-4467-902d-38815987399d</tstamps>
     </comp>
     <comp ref="JP401">
       <value>PR20203BNN</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <description>HEADER 3PIN 0.25MM THT</description>
+      <description>HEADER 3PIN 2.54MM THT</description>
       <fields>
         <field name="MPN">PR20203BNN</field>
         <field name="Manufacturer">Metz Connect</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
-        <field name="Description">HEADER 3PIN 0.25MM THT</field>
+        <field name="Description">HEADER 3PIN 2.54MM THT</field>
       </fields>
       <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
       <property name="MPN" value="PR20203BNN"/>
@@ -840,7 +840,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="Jumper SPDT"/>
       <property name="ki_fp_filters" value="Jumper* TestPoint*3Pads* TestPoint*Bridge*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>18d25851-342b-42e7-abd3-7511706d2f91</tstamps>
     </comp>
     <comp ref="Q401">
@@ -864,7 +864,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="MCU18P10Y-TP"/>
       <property name="ki_fp_filters" value="DPAK_MCC DPAK_MCC-M DPAK_MCC-L"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>d1546e2a-14ce-420a-b6cc-9dfca1249087</tstamps>
     </comp>
     <comp ref="R401">
@@ -886,7 +886,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>6c1af700-66ea-4404-b474-aee85c7b1cf6</tstamps>
     </comp>
     <comp ref="R402">
@@ -908,7 +908,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>6cbd110e-52ac-44f8-bbb3-ebfb429eb26d</tstamps>
     </comp>
     <comp ref="TP401">
@@ -927,7 +927,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>c8fce9d5-1195-4634-89cc-4bf9c043edbb</tstamps>
     </comp>
     <comp ref="TP402">
@@ -946,7 +946,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>f772225d-076a-450c-8348-23e351e0bdec</tstamps>
     </comp>
     <comp ref="TP403">
@@ -965,7 +965,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>abb382a7-badd-4a7e-a216-a8b2e2590f03</tstamps>
     </comp>
     <comp ref="TP404">
@@ -1002,7 +1002,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>b42db4eb-0dc5-40a6-95f1-9e8f1fb719d4</tstamps>
     </comp>
     <comp ref="U401">
@@ -1028,7 +1028,7 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="Single Output LDO Low-Iq"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
+      <sheetpath names="/ARCHITECTURE/POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a995109-9169-4160-bdba-61b9954fc2f6/"/>
       <tstamps>e6763c80-2694-4284-ad49-73609db5b22a</tstamps>
     </comp>
     <comp ref="C501">
@@ -1056,7 +1056,7 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>5c194b68-a0a0-4407-81a1-107577e79bd1</tstamps>
     </comp>
     <comp ref="C502">
@@ -1084,7 +1084,7 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>30108e9c-e72c-413e-b536-bdcbad0d5e0d</tstamps>
     </comp>
     <comp ref="C503">
@@ -1112,66 +1112,10 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>328697a2-8c4a-40e1-80a9-902eac79d558</tstamps>
     </comp>
     <comp ref="C504">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
-      <description>CAP CER 10U 6.3V X7R 0603</description>
-      <fields>
-        <field name="MPN">C1608X7R0J106KT</field>
-        <field name="Manufacturer">TPK</field>
-        <field name="Dielectric">X7R</field>
-        <field name="Voltage_Rating">6.3V</field>
-        <field name="Tolerance">10%</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
-        <field name="Description">CAP CER 10U 6.3V X7R 0603</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="C1608X7R0J106KT"/>
-      <property name="Manufacturer" value="TPK"/>
-      <property name="Dielectric" value="X7R"/>
-      <property name="Voltage_Rating" value="6.3V"/>
-      <property name="Tolerance" value="10%"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>120bd445-2475-478c-b1d9-37e3179eb369</tstamps>
-    </comp>
-    <comp ref="C505">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
-      <description>CAP CER 100N 16V X7R 0603</description>
-      <fields>
-        <field name="MPN">C1608X7R1C104KT</field>
-        <field name="Manufacturer">TPK</field>
-        <field name="Dielectric">X7R</field>
-        <field name="Voltage_Rating">16V</field>
-        <field name="Tolerance">10%</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
-        <field name="Description">CAP CER 100N 16V X7R 0603</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="C1608X7R1C104KT"/>
-      <property name="Manufacturer" value="TPK"/>
-      <property name="Dielectric" value="X7R"/>
-      <property name="Voltage_Rating" value="16V"/>
-      <property name="Tolerance" value="10%"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>5dd67638-ed0e-4ba7-8bc0-a647241ad19f</tstamps>
-    </comp>
-    <comp ref="C506">
       <value>4.7u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
@@ -1196,8 +1140,64 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>66fcb0f0-3b68-4a9a-926d-a6d51a64dea6</tstamps>
+    </comp>
+    <comp ref="C505">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 10U 6.3V X7R 0603</description>
+      <fields>
+        <field name="MPN">C1608X7R0J106KT</field>
+        <field name="Manufacturer">TPK</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">6.3V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 10U 6.3V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C1608X7R0J106KT"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="6.3V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>120bd445-2475-478c-b1d9-37e3179eb369</tstamps>
+    </comp>
+    <comp ref="C506">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 100N 16V X7R 0603</description>
+      <fields>
+        <field name="MPN">C1608X7R1C104KT</field>
+        <field name="Manufacturer">TPK</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 100N 16V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C1608X7R1C104KT"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>3c13809b-f569-42ac-aa52-14da63d152bf</tstamps>
     </comp>
     <comp ref="C507">
       <value>100n</value>
@@ -1224,8 +1224,8 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>3c13809b-f569-42ac-aa52-14da63d152bf</tstamps>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>50dbbc3e-f5bf-49e1-9b19-4cd1e789ca66</tstamps>
     </comp>
     <comp ref="C508">
       <value>100n</value>
@@ -1252,8 +1252,8 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>50dbbc3e-f5bf-49e1-9b19-4cd1e789ca66</tstamps>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>5dd67638-ed0e-4ba7-8bc0-a647241ad19f</tstamps>
     </comp>
     <comp ref="C509">
       <value>100n</value>
@@ -1280,38 +1280,10 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>bf0a04b7-b31b-4c9e-8c26-f7c51fdb7227</tstamps>
     </comp>
     <comp ref="C510">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
-      <description>CAP CER 100N 16V X7R 0603</description>
-      <fields>
-        <field name="MPN">C1608X7R1C104KT</field>
-        <field name="Manufacturer">TPK</field>
-        <field name="Dielectric">X7R</field>
-        <field name="Voltage_Rating">16V</field>
-        <field name="Tolerance">10%</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
-        <field name="Description">CAP CER 100N 16V X7R 0603</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="C1608X7R1C104KT"/>
-      <property name="Manufacturer" value="TPK"/>
-      <property name="Dielectric" value="X7R"/>
-      <property name="Voltage_Rating" value="16V"/>
-      <property name="Tolerance" value="10%"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>1d21e675-96fa-463d-b7d9-aa952fb9c911</tstamps>
-    </comp>
-    <comp ref="C515">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
@@ -1336,10 +1308,10 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>a739e762-09b7-4600-9142-e7886bdb3e5e</tstamps>
     </comp>
-    <comp ref="C516">
+    <comp ref="C511">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
@@ -1364,8 +1336,36 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>611fdfab-5a66-4ee6-b65b-e4c0be1f23a1</tstamps>
+    </comp>
+    <comp ref="C512">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 100N 16V X7R 0603</description>
+      <fields>
+        <field name="MPN">C1608X7R1C104KT</field>
+        <field name="Manufacturer">TPK</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 100N 16V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C1608X7R1C104KT"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>1d21e675-96fa-463d-b7d9-aa952fb9c911</tstamps>
     </comp>
     <comp ref="D501">
       <value>LED</value>
@@ -1398,7 +1398,7 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
       <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>ddd2da58-4f1c-4291-a258-6f8570f47355</tstamps>
     </comp>
     <comp ref="D502">
@@ -1432,7 +1432,7 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
       <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>0e13b48a-c2e5-4b04-8ab3-f44526ba403a</tstamps>
     </comp>
     <comp ref="D503">
@@ -1452,27 +1452,92 @@
       <property name="dnp"/>
       <property name="ki_keywords" value="diode TVS voltage suppressor"/>
       <property name="ki_fp_filters" value="D*SMB*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>6b6fbaae-ae55-4c5f-8ed8-36704777d9ee</tstamps>
     </comp>
-    <comp ref="FB501">
-      <value>?UNKWN?</value>
-      <datasheet>~</datasheet>
-      <description>Ferrite bead, small symbol</description>
+    <comp ref="F501">
+      <value>MF-MSMF030-2</value>
+      <footprint>Resistor_SMD:R_1812_4532Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf</datasheet>
+      <description>PTC RESET FUSE 30V 300MA 1812</description>
       <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Ferrite bead, small symbol</field>
+        <field name="MPN">Bourns Inc.</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="SPN">MF-MSMF030-2CT-ND</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Cost">$0.583</field>
+        <field name="Ih">300mA</field>
+        <field name="It">600mA</field>
+        <field name="Ri">300m</field>
+        <field name="Voltage">30V</field>
+        <field name="Footprint">Resistor_SMD:R_1812_4532Metric</field>
+        <field name="Datasheet">https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf</field>
+        <field name="Description">PTC RESET FUSE 30V 300MA 1812</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="MPN" value="Bourns Inc."/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="SPN" value="MF-MSMF030-2CT-ND"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="Cost" value="$0.583"/>
+      <property name="Ih" value="300mA"/>
+      <property name="It" value="600mA"/>
+      <property name="Ri" value="300m"/>
+      <property name="Voltage" value="30V"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>008ce647-f9a2-4302-8a94-206c7809a20b</tstamps>
+    </comp>
+    <comp ref="FB501">
+      <value>MH1608-601Y</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <description>FERRITE BEAD 600 OHM 0603 4LN</description>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="MPN">MH1608-601Y</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="SPN">MH1608-601YCT-ND</field>
+        <field name="Impedance">600R @ 100MHz</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/mh.pdf</field>
+        <field name="Description">FERRITE BEAD 600 OHM 0603 4LN</field>
       </fields>
       <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="MPN" value="MH1608-601Y"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="SPN" value="MH1608-601YCT-ND"/>
+      <property name="Impedance" value="600R @ 100MHz"/>
       <property name="Sheetname" value="DIGITAL AND HMI"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="L ferrite bead inductor filter"/>
       <property name="ki_fp_filters" value="Inductor_* L_* *Ferrite*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>9530f5d6-6524-4cfb-808e-c3c717309bc2</tstamps>
     </comp>
     <comp ref="J501">
+      <value>Conn_ST_STDC14</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf</datasheet>
+      <description>ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD</field>
+        <field name="Datasheet">https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf</field>
+        <field name="Description">ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_ST_STDC14" description="ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="ST STM32 Cortex Debug Connector ARM SWD JTAG"/>
+      <property name="ki_fp_filters" value="PinHeader?2x07?P1.27mm*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>cfb62d8a-3874-4362-8aec-bf91ca5b95e9</tstamps>
+    </comp>
+    <comp ref="J502">
       <value>USB4105-GF-A</value>
       <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
       <datasheet>https://gct.co/files/specs/usb4105-spec.pdf</datasheet>
@@ -1495,27 +1560,8 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
       <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>ce2f26b7-0184-49fa-b514-3db3722c91dc</tstamps>
-    </comp>
-    <comp ref="J502">
-      <value>TC2030-CTX</value>
-      <footprint>Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical</footprint>
-      <datasheet>https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf</datasheet>
-      <description>Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs</description>
-      <fields>
-        <field name="Footprint">Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical</field>
-        <field name="Datasheet">https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf</field>
-        <field name="Description">Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_ARM_SWD_TagConnect_TC2030-NL" description="Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="Cortex Debug Connector ARM SWD JTAG"/>
-      <property name="ki_fp_filters" value="*TC2030*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>30e78e13-8562-4b52-8de7-fa6a659e0a9b</tstamps>
     </comp>
     <comp ref="R501">
       <value>1k</value>
@@ -1538,7 +1584,7 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>f6aeb0d0-3d50-47f5-b4d1-8e6af87319da</tstamps>
     </comp>
     <comp ref="R502">
@@ -1562,10 +1608,106 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>beeb256b-de96-49e7-ae1a-ff87759fe32d</tstamps>
     </comp>
     <comp ref="R503">
+      <value>22.1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 22.1 OHM 1% 1/10W 0603</description>
+      <fields>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1/10W</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 22.1 OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>daf82b35-1f58-4919-a04f-dcb231585f36</tstamps>
+    </comp>
+    <comp ref="R504">
+      <value>22.1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 22.1 OHM 1% 1/10W 0603</description>
+      <fields>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1/10W</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 22.1 OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>c3c779fa-23c1-4527-91e2-5d7a251f46cd</tstamps>
+    </comp>
+    <comp ref="R505">
+      <value>22.1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 22.1 OHM 1% 1/10W 0603</description>
+      <fields>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1/10W</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 22.1 OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>6a364111-8da7-42c9-bed1-6f500c610818</tstamps>
+    </comp>
+    <comp ref="R506">
+      <value>22.1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 22.1 OHM 1% 1/10W 0603</description>
+      <fields>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1/10W</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 22.1 OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>ed93eca1-74b4-47f5-bd01-da005acb971c</tstamps>
+    </comp>
+    <comp ref="R507">
       <value>0</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
@@ -1586,34 +1728,10 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>512e3a0b-d737-4d4e-b848-81797c57ad77</tstamps>
     </comp>
-    <comp ref="R504">
-      <value>5.11k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
-      <description>RES 5.11K OHM 1% 1/10W 0603</description>
-      <fields>
-        <field name="Manufacturer">Analog Technologies</field>
-        <field name="Tolerance">1%</field>
-        <field name="Power">1/10W</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
-        <field name="Description">RES 5.11K OHM 1% 1/10W 0603</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer" value="Analog Technologies"/>
-      <property name="Tolerance" value="1%"/>
-      <property name="Power" value="1/10W"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>11ee2d17-3470-46b3-849c-11faab18006a</tstamps>
-    </comp>
-    <comp ref="R505">
+    <comp ref="R508">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
@@ -1634,10 +1752,10 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>474d6557-8dd1-4ae9-bc87-16b830dbe52a</tstamps>
     </comp>
-    <comp ref="R506">
+    <comp ref="R509">
       <value>5.11k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
@@ -1658,93 +1776,21 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>255e9250-7b18-4095-99ee-72b7fbd3b078</tstamps>
-    </comp>
-    <comp ref="R507">
-      <value>22.1</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
-      <description>RES 22.1 OHM 1% 1/10W 0603</description>
-      <fields>
-        <field name="Manufacturer">Analog Technologies</field>
-        <field name="Tolerance">1%</field>
-        <field name="Power">1/10W</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
-        <field name="Description">RES 22.1 OHM 1% 1/10W 0603</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer" value="Analog Technologies"/>
-      <property name="Tolerance" value="1%"/>
-      <property name="Power" value="1/10W"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>6a364111-8da7-42c9-bed1-6f500c610818</tstamps>
-    </comp>
-    <comp ref="R508">
-      <value>22.1</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
-      <description>RES 22.1 OHM 1% 1/10W 0603</description>
-      <fields>
-        <field name="Manufacturer">Analog Technologies</field>
-        <field name="Tolerance">1%</field>
-        <field name="Power">1/10W</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
-        <field name="Description">RES 22.1 OHM 1% 1/10W 0603</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer" value="Analog Technologies"/>
-      <property name="Tolerance" value="1%"/>
-      <property name="Power" value="1/10W"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>ed93eca1-74b4-47f5-bd01-da005acb971c</tstamps>
-    </comp>
-    <comp ref="R509">
-      <value>22.1</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
-      <description>RES 22.1 OHM 1% 1/10W 0603</description>
-      <fields>
-        <field name="Manufacturer">Analog Technologies</field>
-        <field name="Tolerance">1%</field>
-        <field name="Power">1/10W</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
-        <field name="Description">RES 22.1 OHM 1% 1/10W 0603</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer" value="Analog Technologies"/>
-      <property name="Tolerance" value="1%"/>
-      <property name="Power" value="1/10W"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>c3c779fa-23c1-4527-91e2-5d7a251f46cd</tstamps>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>11ee2d17-3470-46b3-849c-11faab18006a</tstamps>
     </comp>
     <comp ref="R510">
-      <value>22.1</value>
+      <value>5.11k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
-      <description>RES 22.1 OHM 1% 1/10W 0603</description>
+      <description>RES 5.11K OHM 1% 1/10W 0603</description>
       <fields>
         <field name="Manufacturer">Analog Technologies</field>
         <field name="Tolerance">1%</field>
         <field name="Power">1/10W</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
-        <field name="Description">RES 22.1 OHM 1% 1/10W 0603</field>
+        <field name="Description">RES 5.11K OHM 1% 1/10W 0603</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Analog Technologies"/>
@@ -1754,8 +1800,8 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>daf82b35-1f58-4919-a04f-dcb231585f36</tstamps>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>255e9250-7b18-4095-99ee-72b7fbd3b078</tstamps>
     </comp>
     <comp ref="SW501">
       <value>PTS526SK15SMTR2 LFS</value>
@@ -1779,7 +1825,7 @@
       <property name="Sheetname" value="DIGITAL AND HMI"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>9d446a98-42ac-47a3-8d6f-e35d8164bb9f</tstamps>
     </comp>
     <comp ref="TP501">
@@ -1798,36 +1844,10 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>14ca1bd4-808d-4ff0-9bb6-2eee8c406834</tstamps>
     </comp>
     <comp ref="U501">
-      <value>USBLC6-2SC6</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
-      <datasheet>https://www.st.com/resource/en/datasheet/cd00050750.pdf</datasheet>
-      <description>TVS DIODE 5.25VWM 17VC SOT23-6</description>
-      <fields>
-        <field name="MPN">USBLC6-2SC6</field>
-        <field name="Manufacturer">STMicroelectronics</field>
-        <field name="SPN">497-5235-1-ND</field>
-        <field name="Supplier">DigiKey</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
-        <field name="Datasheet">https://www.st.com/resource/en/datasheet/cd00050750.pdf</field>
-        <field name="Description">TVS DIODE 5.25VWM 17VC SOT23-6</field>
-      </fields>
-      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
-      <property name="MPN" value="USBLC6-2SC6"/>
-      <property name="Manufacturer" value="STMicroelectronics"/>
-      <property name="SPN" value="497-5235-1-ND"/>
-      <property name="Supplier" value="DigiKey"/>
-      <property name="Sheetname" value="DIGITAL AND HMI"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_keywords" value="usb ethernet video"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
-      <tstamps>55ff97a7-d387-49da-a42d-696efc5a049b</tstamps>
-    </comp>
-    <comp ref="U502">
       <value>STM32G441KBT6</value>
       <footprint>Package_QFP:LQFP-32_7x7mm_P0.8mm</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/stm32g441cb.pdf</datasheet>
@@ -1850,8 +1870,34 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="Arm Cortex-M4 STM32G4 STM32G4x1"/>
       <property name="ki_fp_filters" value="LQFP*7x7mm*P0.8mm*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>66dbc80e-7307-4e9f-8f95-9c8dd15ae272</tstamps>
+    </comp>
+    <comp ref="U502">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/cd00050750.pdf</datasheet>
+      <description>TVS DIODE 5.25VWM 17VC SOT23-6</description>
+      <fields>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="SPN">497-5235-1-ND</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/cd00050750.pdf</field>
+        <field name="Description">TVS DIODE 5.25VWM 17VC SOT23-6</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="SPN" value="497-5235-1-ND"/>
+      <property name="Supplier" value="DigiKey"/>
+      <property name="Sheetname" value="DIGITAL AND HMI"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <tstamps>55ff97a7-d387-49da-a42d-696efc5a049b</tstamps>
     </comp>
     <comp ref="Y501">
       <value>ATS08A-E</value>
@@ -1880,7 +1926,7 @@
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <property name="ki_fp_filters" value="Crystal*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
+      <sheetpath names="/ARCHITECTURE/DIGITAL AND HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa/"/>
       <tstamps>e80a889b-afbe-42c1-9b17-53d54740f196</tstamps>
     </comp>
     <comp ref="C601">
@@ -1908,7 +1954,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>0f734c07-f5c2-4194-9476-ac82fc499c71</tstamps>
     </comp>
     <comp ref="C602">
@@ -1936,7 +1982,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>23361f0b-2ced-4620-921d-2692efaadfee</tstamps>
     </comp>
     <comp ref="C603">
@@ -1964,7 +2010,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>78ccebd3-ca37-421b-99ff-0a09b4f82582</tstamps>
     </comp>
     <comp ref="C604">
@@ -1992,7 +2038,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>d9fa584e-92b3-4ec4-91af-c86f31a6d7a0</tstamps>
     </comp>
     <comp ref="C605">
@@ -2020,7 +2066,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>525d2444-9342-48b9-bbb6-aebfa53f8ad7</tstamps>
     </comp>
     <comp ref="C606">
@@ -2048,7 +2094,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>789bf464-50c6-4099-a07c-1de16e9aa2b7</tstamps>
     </comp>
     <comp ref="C607">
@@ -2076,7 +2122,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>8aee93a9-abe0-4c63-98af-6ca627e047a0</tstamps>
     </comp>
     <comp ref="C608">
@@ -2104,7 +2150,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>08d1c9df-73f4-471b-9b11-bc5c69579988</tstamps>
     </comp>
     <comp ref="C609">
@@ -2132,7 +2178,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>3f9643ae-c435-4871-b756-8e57f65b6dfc</tstamps>
     </comp>
     <comp ref="C610">
@@ -2160,7 +2206,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>885bdd0f-6768-4e31-903e-d46fe7003345</tstamps>
     </comp>
     <comp ref="C611">
@@ -2188,7 +2234,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>86bb6b60-b156-4da5-a0ba-b42086ef7542</tstamps>
     </comp>
     <comp ref="C612">
@@ -2216,7 +2262,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>35adfae8-a3c9-46a1-bfbe-2e33e37aa7ea</tstamps>
     </comp>
     <comp ref="C613">
@@ -2244,7 +2290,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>7d315d50-0a09-41f8-ab21-31c6aad137f4</tstamps>
     </comp>
     <comp ref="C614">
@@ -2272,7 +2318,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>d3ccb45d-2069-4f47-99a0-b1d8721eee2b</tstamps>
     </comp>
     <comp ref="C615">
@@ -2300,7 +2346,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>a0c7a184-ea15-4f5b-aae9-29e42c27898a</tstamps>
     </comp>
     <comp ref="C616">
@@ -2328,7 +2374,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>936d06f2-99c9-4efb-9c51-e7ab32989909</tstamps>
     </comp>
     <comp ref="D601">
@@ -2358,7 +2404,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="D*SOD?323*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>9e244b44-ac2b-4638-85dc-1e3d4b7ea2c7</tstamps>
     </comp>
     <comp ref="D602">
@@ -2388,7 +2434,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="D*SOD?323*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>298fc5c5-ba5c-411b-8a46-d5f3b5a910d4</tstamps>
     </comp>
     <comp ref="D603">
@@ -2418,7 +2464,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="D*SOD?323*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>9124d79b-fbba-4366-adcf-d0e47acf356d</tstamps>
     </comp>
     <comp ref="D604">
@@ -2448,7 +2494,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="D*SOD?323*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>2b491a30-c4b1-4348-b9be-b030f38ea259</tstamps>
     </comp>
     <comp ref="D605">
@@ -2478,7 +2524,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="D*SOD?323*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>b38b0dd1-6a3a-4f3b-835c-ba1a86e17ab0</tstamps>
     </comp>
     <comp ref="D606">
@@ -2508,7 +2554,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="D*SOD?323*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>308d937a-18d5-459b-a127-9d29455eddc7</tstamps>
     </comp>
     <comp ref="J601">
@@ -2534,7 +2580,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
       <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>4b39bc24-9e44-4f48-835c-b4d6b1fbb1a7</tstamps>
     </comp>
     <comp ref="J602">
@@ -2560,7 +2606,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
       <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>3a2c6165-2d8c-44ad-9f0b-9a20bc14d8f7</tstamps>
     </comp>
     <comp ref="J603">
@@ -2586,7 +2632,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
       <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>08620da5-a581-4275-87e2-824c4d6cb9a0</tstamps>
     </comp>
     <comp ref="R601">
@@ -2610,7 +2656,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>9398c863-14ca-4dce-bed4-e50259d18753</tstamps>
     </comp>
     <comp ref="R602">
@@ -2634,7 +2680,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>5b289843-7741-4ee1-a6ca-37d569551b60</tstamps>
     </comp>
     <comp ref="R603">
@@ -2658,7 +2704,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>f72884be-d3ef-446b-9602-23e020749384</tstamps>
     </comp>
     <comp ref="R604">
@@ -2682,7 +2728,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>152ec987-3e01-4633-89dd-883b7d1bb3c7</tstamps>
     </comp>
     <comp ref="R605">
@@ -2706,7 +2752,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>b4142f9a-c491-403a-b9c0-ca904fe76e42</tstamps>
     </comp>
     <comp ref="R606">
@@ -2730,7 +2776,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>00f9b2ca-6926-4a0e-8ece-fe276279ac08</tstamps>
     </comp>
     <comp ref="R607">
@@ -2754,7 +2800,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>5841f690-ca08-4db5-aaf4-823d92d4b510</tstamps>
     </comp>
     <comp ref="R608">
@@ -2778,7 +2824,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>3df47285-87fb-47a8-94bf-b226f6d24301</tstamps>
     </comp>
     <comp ref="R609">
@@ -2802,7 +2848,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>ce9dee87-f6d2-4806-afa3-fdb6f7c7e5ae</tstamps>
     </comp>
     <comp ref="R610">
@@ -2826,7 +2872,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>605da641-679a-4553-8658-61f002bf505f</tstamps>
     </comp>
     <comp ref="R611">
@@ -2850,7 +2896,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>14891df2-cb2b-4e10-8a1f-d3ec0a914d31</tstamps>
     </comp>
     <comp ref="R612">
@@ -2874,7 +2920,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>c5293215-e15e-4a79-b2de-b2f6552511ab</tstamps>
     </comp>
     <comp ref="R613">
@@ -2898,7 +2944,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>75ebe482-2d7e-4190-8c90-593d1cab9a87</tstamps>
     </comp>
     <comp ref="R614">
@@ -2922,7 +2968,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>30b3359c-ae35-4577-b544-115c48faf684</tstamps>
     </comp>
     <comp ref="R615">
@@ -2946,7 +2992,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>cf6b5e70-3229-48e2-b03e-ddbf6048e678</tstamps>
     </comp>
     <comp ref="R616">
@@ -2970,7 +3016,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>704391a1-f0e0-49f4-9af2-660888e09fa9</tstamps>
     </comp>
     <comp ref="R617">
@@ -2994,7 +3040,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>493fe0f2-02e4-47db-817c-2e94e0660ac5</tstamps>
     </comp>
     <comp ref="R618">
@@ -3018,7 +3064,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>b8b4c1d3-b1e4-4626-a42c-be0e8e248a88</tstamps>
     </comp>
     <comp ref="R619">
@@ -3042,7 +3088,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>79999360-b464-4357-ae7b-30a03973bce6</tstamps>
     </comp>
     <comp ref="R620">
@@ -3066,7 +3112,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>628d9c04-dcd9-443f-81e1-d6dc0d37e6b8</tstamps>
     </comp>
     <comp ref="R621">
@@ -3090,7 +3136,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>b4ddcd24-04ff-486e-9d82-b542b987f664</tstamps>
     </comp>
     <comp ref="R622">
@@ -3114,7 +3160,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>81d29d93-264b-4c9c-b4e1-d260a329edf0</tstamps>
     </comp>
     <comp ref="R623">
@@ -3138,7 +3184,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>b7f7cbe7-08fc-4b64-80fc-02acdb860659</tstamps>
     </comp>
     <comp ref="R624">
@@ -3162,7 +3208,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>817c1e23-8e14-451c-a788-f897bfa617c4</tstamps>
     </comp>
     <comp ref="TP601">
@@ -3181,7 +3227,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>eecb4afe-14a1-4716-a99e-6dd4a8c9bd00</tstamps>
     </comp>
     <comp ref="TP602">
@@ -3200,7 +3246,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>f9e92614-19d7-40b0-b5f2-5946250b725d</tstamps>
     </comp>
     <comp ref="TP603">
@@ -3219,7 +3265,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>92054846-c7d7-4941-8289-f01fbcba331f</tstamps>
     </comp>
     <comp ref="TP604">
@@ -3238,7 +3284,7 @@
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>a0a458b0-49c2-4ac7-aa0e-ec7db17b4f80</tstamps>
     </comp>
     <comp ref="U601">
@@ -3264,7 +3310,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="dual opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>cda3443f-53c4-48b4-8994-45f2d03d3ced cd034708-6486-41c7-8609-0ef838f517b2 86a4d47d-34c1-4dc4-8ee7-b738ca08c1e1</tstamps>
     </comp>
     <comp ref="U602">
@@ -3290,7 +3336,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="dual opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>e9bd5af7-7d08-4c5f-8461-53786d313d00 78cb3d2f-d15c-4013-a574-c4cb6a3008e8 3bba898a-d0ed-49a2-a71a-ca5918c264e5</tstamps>
     </comp>
     <comp ref="U603">
@@ -3316,7 +3362,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="dual opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>cc66369e-d66e-4010-b9d4-95626d76d79a 2ec8b857-d72f-455e-860c-08eb1e924ffa 24e8d634-0f6c-4b2d-9c3a-6fbdb681eff8</tstamps>
     </comp>
     <comp ref="U604">
@@ -3342,7 +3388,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="dual opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>f3fd7ab2-4fd7-4692-b87e-5e311d34fd32 701e04d7-e34d-4f27-a365-1f4fc54b73e2 55117dca-d5cd-4297-ac78-64c16a110808</tstamps>
     </comp>
     <comp ref="U605">
@@ -3368,7 +3414,7 @@
       <property name="Sheetfile" value="Analogue-Inputs.kicad_sch"/>
       <property name="ki_keywords" value="dual opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE INPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a/"/>
       <tstamps>8865e80c-c7dd-4961-a53f-cd63d0d447d4 f654d107-8e4d-4b47-8787-991ef2584331 4d790d67-ea76-4f26-a773-4ccc6de91ab1</tstamps>
     </comp>
     <comp ref="C701">
@@ -3396,7 +3442,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>9e1af39b-6fc5-4b24-a8e9-ee4727f16477</tstamps>
     </comp>
     <comp ref="C702">
@@ -3424,7 +3470,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>06546a59-fad6-4e53-b072-6b8cfd60a116</tstamps>
     </comp>
     <comp ref="C703">
@@ -3452,7 +3498,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>36d08428-97b0-4443-b83b-6385ebee60fe</tstamps>
     </comp>
     <comp ref="C704">
@@ -3480,7 +3526,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>11bec971-e553-4e2b-bc12-a141cb07fc0f</tstamps>
     </comp>
     <comp ref="C705">
@@ -3508,7 +3554,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>5edae6b4-d708-4d68-a1fc-c35aa2ecb72e</tstamps>
     </comp>
     <comp ref="C706">
@@ -3536,10 +3582,10 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>8e736c67-3063-4387-9673-5961b83ec6aa</tstamps>
     </comp>
-    <comp ref="C708">
+    <comp ref="C707">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
@@ -3564,20 +3610,20 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>2bd01d06-905a-4d0a-aa1f-76f798341106</tstamps>
     </comp>
     <comp ref="J701">
       <value>PH1-02-UA</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x02, script generated</description>
+      <description>HEADER 2PIN 2.54MM THT</description>
       <fields>
         <field name="Manufacturer">Adam Tech</field>
         <field name="MPN"/>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+        <field name="Description">HEADER 2PIN 2.54MM THT</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Manufacturer" value="Adam Tech"/>
@@ -3586,7 +3632,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>42130215-c8b2-428e-8ac6-e7a1f3f3df87</tstamps>
     </comp>
     <comp ref="R701">
@@ -3610,7 +3656,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>e350d476-998e-42ee-8723-f7afef230d3d</tstamps>
     </comp>
     <comp ref="R702">
@@ -3634,7 +3680,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>ed5a1cfc-7846-49ec-b0fc-af8b1afc48e7</tstamps>
     </comp>
     <comp ref="R703">
@@ -3658,7 +3704,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>1a85c11a-9119-4c46-bd0f-4fcbb21eb86e</tstamps>
     </comp>
     <comp ref="R704">
@@ -3682,7 +3728,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>14ade57a-2ac6-40b9-a03d-2ce2bc2b0385</tstamps>
     </comp>
     <comp ref="R705">
@@ -3706,7 +3752,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>bc2cd4a5-3eaa-4ae4-802b-fea5cc10fa44</tstamps>
     </comp>
     <comp ref="R706">
@@ -3730,7 +3776,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>62492cb3-96fb-4620-a626-4720e3ed9cd7</tstamps>
     </comp>
     <comp ref="R707">
@@ -3754,7 +3800,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>6d5cb4ec-bcea-4daa-9946-6dc2f513de2d</tstamps>
     </comp>
     <comp ref="R708">
@@ -3778,8 +3824,33 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>21b97a91-1d47-4956-a0c7-94c9786c11fb</tstamps>
+    </comp>
+    <comp ref="R709">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 100 OHM 1% 1/10W 0603</description>
+      <fields>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1/10W</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 100 OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Sheetname" value="ANALOGUE OUTPUTS"/>
+      <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <tstamps>071426b3-ec18-4720-aed8-df4c281d1787</tstamps>
     </comp>
     <comp ref="U701">
       <value>LM358LVIDR</value>
@@ -3804,7 +3875,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="dual opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>a4251aed-eae8-4ba4-a3e4-dc36af519fc0 c027baff-0928-471d-9e1e-e89a693e167a 1932a955-0253-4ec7-9a8e-355356f6f035</tstamps>
     </comp>
     <comp ref="U702">
@@ -3830,7 +3901,7 @@
       <property name="Sheetfile" value="Analogue-Outputs.kicad_sch"/>
       <property name="ki_keywords" value="dual opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
-      <sheetpath names="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
+      <sheetpath names="/ARCHITECTURE/ANALOGUE OUTPUTS/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8fe0aa77-1043-4de2-87da-8c916c2e1a1d/"/>
       <tstamps>4e2ff7f3-1a51-4f68-8f91-15bdb682a8ed 4bf4b8dd-eba0-4985-bfa0-702374dd430b 16eef515-0cbd-4ed2-a76d-cecece540f50</tstamps>
     </comp>
   </components>
@@ -3940,28 +4011,6 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_ARM_SWD_TagConnect_TC2030-NL">
-      <description>Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs</description>
-      <docs>https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf</docs>
-      <footprints>
-        <fp>*TC2030*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_ARM_SWD_TagConnect_TC2030-NL</field>
-        <field name="Footprint">Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical</field>
-        <field name="Datasheet">https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf</field>
-        <field name="Description">Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC" type="power_in"/>
-        <pin num="2" name="SWDIO" type="bidirectional"/>
-        <pin num="3" name="~{RESET}" type="open_collector"/>
-        <pin num="4" name="SWCLK" type="output"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SWO" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="Conn_Coaxial">
       <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
       <docs>~</docs>
@@ -3986,6 +4035,36 @@
       <pins>
         <pin num="1" name="In" type="passive"/>
         <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_ST_STDC14">
+      <description>ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART</description>
+      <docs>https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf</docs>
+      <footprints>
+        <fp>PinHeader?2x07?P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ST_STDC14</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf</field>
+        <field name="Description">ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="JTMS/SWDIO" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="JCLK/SWCLK" type="output"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="JTDO/SWO" type="input"/>
+        <pin num="9" name="JRCLK/NC" type="input"/>
+        <pin num="10" name="JTDI/NC" type="output"/>
+        <pin num="11" name="GNDDetect" type="passive"/>
+        <pin num="12" name="~{RST}" type="open_collector"/>
+        <pin num="13" name="VCP_RX" type="output"/>
+        <pin num="14" name="VCP_TX" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Screw_Terminal_01x02">
@@ -4485,10 +4564,10 @@
   <nets>
     <net code="1" name="+3V0" class="Default">
       <node ref="C405" pin="2" pintype="passive"/>
+      <node ref="C504" pin="2" pintype="passive"/>
       <node ref="C506" pin="2" pintype="passive"/>
-      <node ref="C507" pin="2" pintype="passive"/>
       <node ref="C509" pin="2" pintype="passive"/>
-      <node ref="C510" pin="2" pintype="passive"/>
+      <node ref="C512" pin="2" pintype="passive"/>
       <node ref="C601" pin="1" pintype="passive"/>
       <node ref="C602" pin="1" pintype="passive"/>
       <node ref="C610" pin="1" pintype="passive"/>
@@ -4500,14 +4579,14 @@
       <node ref="D603" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D605" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="FB501" pin="2" pintype="passive"/>
-      <node ref="J502" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="J501" pin="3" pinfunction="VCC" pintype="power_in"/>
       <node ref="R623" pin="2" pintype="passive"/>
       <node ref="R705" pin="2" pintype="passive"/>
       <node ref="TP403" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U401" pin="5" pinfunction="OUT" pintype="power_out"/>
-      <node ref="U501" pin="5" pinfunction="VBUS" pintype="passive"/>
-      <node ref="U502" pin="1" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U502" pin="17" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U501" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U501" pin="17" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U502" pin="5" pinfunction="VBUS" pintype="passive"/>
       <node ref="U601" pin="8" pinfunction="V+" pintype="power_in"/>
       <node ref="U602" pin="8" pinfunction="V+" pintype="power_in"/>
       <node ref="U603" pin="8" pinfunction="V+" pintype="power_in"/>
@@ -4516,121 +4595,121 @@
       <node ref="U701" pin="8" pinfunction="V+" pintype="power_in"/>
       <node ref="U702" pin="8" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="2" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ADC_CE" class="Default">
+    <net code="2" name="/ARCHITECTURE/ANALOGUE INPUTS/ADC_CE" class="Default">
       <node ref="R615" pin="2" pintype="passive"/>
-      <node ref="U502" pin="12" pinfunction="ADC2_IN4" pintype="bidirectional"/>
+      <node ref="U501" pin="12" pinfunction="ADC2_IN4" pintype="bidirectional"/>
     </net>
-    <net code="3" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ADC_CO2" class="Default">
+    <net code="3" name="/ARCHITECTURE/ANALOGUE INPUTS/ADC_CO2" class="Default">
       <node ref="R619" pin="2" pintype="passive"/>
-      <node ref="U502" pin="6" pinfunction="ADC2_IN2" pintype="bidirectional"/>
+      <node ref="U501" pin="6" pinfunction="ADC2_IN2" pintype="bidirectional"/>
     </net>
-    <net code="4" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ADC_ECG" class="Default">
+    <net code="4" name="/ARCHITECTURE/ANALOGUE INPUTS/ADC_ECG" class="Default">
       <node ref="R620" pin="2" pintype="passive"/>
-      <node ref="U502" pin="5" pinfunction="ADC1_IN1" pintype="bidirectional"/>
+      <node ref="U501" pin="5" pinfunction="ADC1_IN1" pintype="bidirectional"/>
     </net>
-    <net code="5" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF" class="Default">
+    <net code="5" name="/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF" class="Default">
       <node ref="R606" pin="1" pintype="passive"/>
       <node ref="U603" pin="1" pintype="output"/>
       <node ref="U603" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="6" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN" class="Default">
+    <net code="6" name="/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN" class="Default">
       <node ref="D603" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D604" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R602" pin="2" pintype="passive"/>
       <node ref="U603" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="7" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CE_FILT" class="Default">
+    <net code="7" name="/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT" class="Default">
       <node ref="C608" pin="1" pintype="passive"/>
       <node ref="R612" pin="2" pintype="passive"/>
       <node ref="R615" pin="1" pintype="passive"/>
       <node ref="TP602" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U603" pin="7" pintype="output"/>
     </net>
-    <net code="8" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CE_IN" class="Default">
+    <net code="8" name="/ARCHITECTURE/ANALOGUE INPUTS/CE_IN" class="Default">
       <node ref="J602" pin="1" pinfunction="In" pintype="passive"/>
       <node ref="R602" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CE_SK_MID" class="Default">
+    <net code="9" name="/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_MID" class="Default">
       <node ref="C608" pin="2" pintype="passive"/>
       <node ref="R606" pin="2" pintype="passive"/>
       <node ref="R609" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CE_SK_N" class="Default">
+    <net code="10" name="/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_N" class="Default">
       <node ref="R611" pin="2" pintype="passive"/>
       <node ref="R612" pin="1" pintype="passive"/>
       <node ref="U603" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="11" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CE_SK_RC" class="Default">
+    <net code="11" name="/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_RC" class="Default">
       <node ref="C605" pin="1" pintype="passive"/>
       <node ref="R609" pin="2" pintype="passive"/>
       <node ref="U603" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="12" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF" class="Default">
+    <net code="12" name="/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF" class="Default">
       <node ref="R607" pin="1" pintype="passive"/>
       <node ref="U601" pin="1" pintype="output"/>
       <node ref="U601" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="13" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN" class="Default">
+    <net code="13" name="/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN" class="Default">
       <node ref="D605" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D606" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R603" pin="2" pintype="passive"/>
       <node ref="U601" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="14" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT" class="Default">
+    <net code="14" name="/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT" class="Default">
       <node ref="C609" pin="1" pintype="passive"/>
       <node ref="U602" pin="1" pintype="output"/>
       <node ref="U602" pin="2" pinfunction="-" pintype="input"/>
       <node ref="U602" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="15" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CO2_GAIN_N" class="Default">
+    <net code="15" name="/ARCHITECTURE/ANALOGUE INPUTS/CO2_GAIN_N" class="Default">
       <node ref="R613" pin="2" pintype="passive"/>
       <node ref="R617" pin="1" pintype="passive"/>
       <node ref="U602" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="16" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CO2_IN" class="Default">
+    <net code="16" name="/ARCHITECTURE/ANALOGUE INPUTS/CO2_IN" class="Default">
       <node ref="J603" pin="1" pinfunction="In" pintype="passive"/>
       <node ref="R603" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT" class="Default">
+    <net code="17" name="/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT" class="Default">
       <node ref="R617" pin="2" pintype="passive"/>
       <node ref="R619" pin="1" pintype="passive"/>
       <node ref="TP603" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U602" pin="7" pintype="output"/>
     </net>
-    <net code="18" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_MID" class="Default">
+    <net code="18" name="/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_MID" class="Default">
       <node ref="C609" pin="2" pintype="passive"/>
       <node ref="R607" pin="2" pintype="passive"/>
       <node ref="R610" pin="1" pintype="passive"/>
     </net>
-    <net code="19" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_RC" class="Default">
+    <net code="19" name="/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_RC" class="Default">
       <node ref="C606" pin="1" pintype="passive"/>
       <node ref="R610" pin="2" pintype="passive"/>
       <node ref="U602" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="20" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT" class="Default">
+    <net code="20" name="/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT" class="Default">
       <node ref="C607" pin="1" pintype="passive"/>
       <node ref="R614" pin="1" pintype="passive"/>
       <node ref="TP601" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U604" pin="6" pinfunction="-" pintype="input"/>
       <node ref="U604" pin="7" pintype="output"/>
     </net>
-    <net code="21" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N" class="Default">
+    <net code="21" name="/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N" class="Default">
       <node ref="R614" pin="2" pintype="passive"/>
       <node ref="R616" pin="2" pintype="passive"/>
       <node ref="R618" pin="1" pintype="passive"/>
       <node ref="U605" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="22" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ECG_IN" class="Default">
+    <net code="22" name="/ARCHITECTURE/ANALOGUE INPUTS/ECG_IN" class="Default">
       <node ref="J601" pin="1" pinfunction="In" pintype="passive"/>
       <node ref="R601" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1" class="Default">
+    <net code="23" name="/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1" class="Default">
       <node ref="C603" pin="1" pintype="passive"/>
       <node ref="R604" pin="1" pintype="passive"/>
       <node ref="R605" pin="1" pintype="passive"/>
       <node ref="U604" pin="1" pintype="output"/>
     </net>
-    <net code="24" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N" class="Default">
+    <net code="24" name="/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N" class="Default">
       <node ref="C603" pin="2" pintype="passive"/>
       <node ref="D601" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D602" pin="1" pinfunction="K" pintype="passive"/>
@@ -4638,189 +4717,198 @@
       <node ref="R604" pin="2" pintype="passive"/>
       <node ref="U604" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="25" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT" class="Default">
+    <net code="25" name="/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT" class="Default">
       <node ref="R618" pin="2" pintype="passive"/>
       <node ref="R620" pin="1" pintype="passive"/>
       <node ref="R622" pin="2" pintype="passive"/>
       <node ref="TP604" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U605" pin="1" pintype="output"/>
     </net>
-    <net code="26" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_MID" class="Default">
+    <net code="26" name="/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_MID" class="Default">
       <node ref="C607" pin="2" pintype="passive"/>
       <node ref="R605" pin="2" pintype="passive"/>
       <node ref="R608" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_RC" class="Default">
+    <net code="27" name="/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_RC" class="Default">
       <node ref="C604" pin="1" pintype="passive"/>
       <node ref="R608" pin="2" pintype="passive"/>
       <node ref="U604" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="28" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/SERVO_N" class="Default">
+    <net code="28" name="/ARCHITECTURE/ANALOGUE INPUTS/SERVO_N" class="Default">
       <node ref="C611" pin="1" pintype="passive"/>
       <node ref="R621" pin="1" pintype="passive"/>
       <node ref="U605" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="29" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/SERVO_OUT" class="Default">
+    <net code="29" name="/ARCHITECTURE/ANALOGUE INPUTS/SERVO_OUT" class="Default">
       <node ref="C611" pin="2" pintype="passive"/>
       <node ref="R616" pin="1" pintype="passive"/>
       <node ref="U605" pin="7" pintype="output"/>
     </net>
-    <net code="30" name="/PROJECT ARCHITECTURE/ANALOGUE INPUTS/SERVO_P" class="Default">
+    <net code="30" name="/ARCHITECTURE/ANALOGUE INPUTS/SERVO_P" class="Default">
       <node ref="C612" pin="2" pintype="passive"/>
       <node ref="R622" pin="1" pintype="passive"/>
       <node ref="U605" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="31" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/DAC_SHAKER" class="Default">
+    <net code="31" name="/ARCHITECTURE/ANALOGUE OUTPUTS/DAC_SHAKER" class="Default">
       <node ref="R701" pin="1" pintype="passive"/>
-      <node ref="U502" pin="9" pinfunction="DAC1_OUT1" pintype="bidirectional"/>
+      <node ref="U501" pin="9" pinfunction="DAC1_OUT1" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N" class="Default">
+    <net code="32" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N" class="Default">
       <node ref="J701" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R708" pin="1" pintype="passive"/>
+      <node ref="R709" pin="2" pintype="passive"/>
       <node ref="U702" pin="7" pintype="output"/>
     </net>
-    <net code="33" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P" class="Default">
+    <net code="33" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P" class="Default">
       <node ref="J701" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R709" pin="1" pintype="passive"/>
       <node ref="U702" pin="1" pintype="output"/>
       <node ref="U702" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="34" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1" class="Default">
+    <net code="34" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1" class="Default">
       <node ref="C704" pin="1" pintype="passive"/>
       <node ref="R703" pin="1" pintype="passive"/>
       <node ref="U701" pin="1" pintype="output"/>
       <node ref="U701" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="35" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2" class="Default">
+    <net code="35" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2" class="Default">
       <node ref="C706" pin="1" pintype="passive"/>
       <node ref="R707" pin="1" pintype="passive"/>
       <node ref="U701" pin="6" pinfunction="-" pintype="input"/>
       <node ref="U701" pin="7" pintype="output"/>
       <node ref="U702" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="36" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHK_N" class="Default">
+    <net code="36" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_N" class="Default">
       <node ref="R707" pin="2" pintype="passive"/>
       <node ref="R708" pin="2" pintype="passive"/>
       <node ref="U702" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="37" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_MID" class="Default">
+    <net code="37" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_MID" class="Default">
       <node ref="C704" pin="2" pintype="passive"/>
       <node ref="R701" pin="2" pintype="passive"/>
       <node ref="R702" pin="1" pintype="passive"/>
     </net>
-    <net code="38" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_RC" class="Default">
+    <net code="38" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_RC" class="Default">
       <node ref="C703" pin="1" pintype="passive"/>
       <node ref="R702" pin="2" pintype="passive"/>
       <node ref="U701" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="39" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_MID" class="Default">
+    <net code="39" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_MID" class="Default">
       <node ref="C706" pin="2" pintype="passive"/>
       <node ref="R703" pin="2" pintype="passive"/>
       <node ref="R704" pin="1" pintype="passive"/>
     </net>
-    <net code="40" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_RC" class="Default">
+    <net code="40" name="/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_RC" class="Default">
       <node ref="C705" pin="1" pintype="passive"/>
       <node ref="R704" pin="2" pintype="passive"/>
       <node ref="U701" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="41" name="/PROJECT ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK" class="Default">
-      <node ref="C708" pin="1" pintype="passive"/>
+    <net code="41" name="/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK" class="Default">
+      <node ref="C707" pin="1" pintype="passive"/>
       <node ref="R705" pin="1" pintype="passive"/>
       <node ref="R706" pin="2" pintype="passive"/>
       <node ref="U702" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="42" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/A+" class="Default">
-      <node ref="U501" pin="4" pinfunction="I/O2" pintype="passive"/>
-      <node ref="U502" pin="22" pinfunction="USB_DP" pintype="bidirectional"/>
+    <net code="42" name="/ARCHITECTURE/DIGITAL AND HMI/A+" class="Default">
+      <node ref="U501" pin="22" pinfunction="USB_DP" pintype="bidirectional"/>
+      <node ref="U502" pin="4" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="43" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/A-" class="Default">
-      <node ref="U501" pin="6" pinfunction="I/O1" pintype="passive"/>
-      <node ref="U502" pin="21" pinfunction="USB_DM" pintype="bidirectional"/>
+    <net code="43" name="/ARCHITECTURE/DIGITAL AND HMI/A-" class="Default">
+      <node ref="U501" pin="21" pinfunction="USB_DM" pintype="bidirectional"/>
+      <node ref="U502" pin="6" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="44" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/BTN" class="Default">
+    <net code="44" name="/ARCHITECTURE/DIGITAL AND HMI/BTN" class="Default">
       <node ref="C501" pin="2" pintype="passive"/>
       <node ref="SW501" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U502" pin="18" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U501" pin="18" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="45" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/CC1" class="Default">
-      <node ref="J501" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
-      <node ref="R504" pin="2" pintype="passive"/>
+    <net code="45" name="/ARCHITECTURE/DIGITAL AND HMI/CC1" class="Default">
+      <node ref="J502" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R509" pin="2" pintype="passive"/>
     </net>
-    <net code="46" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/CC2" class="Default">
-      <node ref="J501" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
-      <node ref="R506" pin="2" pintype="passive"/>
+    <net code="46" name="/ARCHITECTURE/DIGITAL AND HMI/CC2" class="Default">
+      <node ref="J502" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R510" pin="2" pintype="passive"/>
     </net>
-    <net code="47" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/D+" class="Default">
-      <node ref="J501" pin="A6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="J501" pin="B6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="U501" pin="3" pinfunction="I/O2" pintype="passive"/>
+    <net code="47" name="/ARCHITECTURE/DIGITAL AND HMI/D+" class="Default">
+      <node ref="J502" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J502" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U502" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="48" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/D-" class="Default">
-      <node ref="J501" pin="A7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="J501" pin="B7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="U501" pin="1" pinfunction="I/O1" pintype="passive"/>
+    <net code="48" name="/ARCHITECTURE/DIGITAL AND HMI/D-" class="Default">
+      <node ref="J502" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J502" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U502" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="49" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/LED_GRN" class="Default">
+    <net code="49" name="/ARCHITECTURE/DIGITAL AND HMI/LED_GRN" class="Default">
       <node ref="R501" pin="2" pintype="passive"/>
-      <node ref="U502" pin="20" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U501" pin="20" pinfunction="PA10" pintype="bidirectional"/>
     </net>
-    <net code="50" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/LED_RED" class="Default">
+    <net code="50" name="/ARCHITECTURE/DIGITAL AND HMI/LED_RED" class="Default">
       <node ref="R502" pin="2" pintype="passive"/>
-      <node ref="U502" pin="19" pinfunction="PA9" pintype="bidirectional"/>
+      <node ref="U501" pin="19" pinfunction="PA9" pintype="bidirectional"/>
     </net>
-    <net code="51" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/OSC_IN" class="Default">
+    <net code="51" name="/ARCHITECTURE/DIGITAL AND HMI/OSC_IN" class="Default">
       <node ref="C502" pin="2" pintype="passive"/>
-      <node ref="U502" pin="2" pinfunction="RCC_OSC_IN" pintype="bidirectional"/>
+      <node ref="U501" pin="2" pinfunction="RCC_OSC_IN" pintype="bidirectional"/>
       <node ref="Y501" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="52" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/OSC_OUT" class="Default">
+    <net code="52" name="/ARCHITECTURE/DIGITAL AND HMI/OSC_OUT" class="Default">
+      <node ref="R507" pin="2" pintype="passive"/>
+      <node ref="U501" pin="3" pinfunction="RCC_OSC_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/ARCHITECTURE/DIGITAL AND HMI/SWCLK" class="Default">
       <node ref="R503" pin="2" pintype="passive"/>
-      <node ref="U502" pin="3" pinfunction="RCC_OSC_OUT" pintype="bidirectional"/>
+      <node ref="U501" pin="24" pinfunction="SYS_JTCK-SWCLK" pintype="bidirectional"/>
     </net>
-    <net code="53" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/SWCLK" class="Default">
-      <node ref="R510" pin="2" pintype="passive"/>
-      <node ref="U502" pin="24" pinfunction="SYS_JTCK-SWCLK" pintype="bidirectional"/>
+    <net code="54" name="/ARCHITECTURE/DIGITAL AND HMI/SWDIO" class="Default">
+      <node ref="R504" pin="2" pintype="passive"/>
+      <node ref="U501" pin="23" pinfunction="SYS_JTMS-SWDIO" pintype="bidirectional"/>
     </net>
-    <net code="54" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/SWDIO" class="Default">
-      <node ref="R509" pin="2" pintype="passive"/>
-      <node ref="U502" pin="23" pinfunction="SYS_JTMS-SWDIO" pintype="bidirectional"/>
+    <net code="55" name="/ARCHITECTURE/DIGITAL AND HMI/SWO" class="Default">
+      <node ref="R506" pin="2" pintype="passive"/>
+      <node ref="U501" pin="26" pinfunction="SYS_JTDO-SWO" pintype="bidirectional"/>
     </net>
-    <net code="55" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/SWO" class="Default">
-      <node ref="R508" pin="2" pintype="passive"/>
-      <node ref="U502" pin="26" pinfunction="SYS_JTDO-SWO" pintype="bidirectional"/>
+    <net code="56" name="/ARCHITECTURE/DIGITAL AND HMI/VBUS_RAW" class="Default">
+      <node ref="F501" pin="1" pintype="passive"/>
+      <node ref="J502" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J502" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J502" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J502" pin="B9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="56" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/VDDA" class="Default">
-      <node ref="C515" pin="2" pintype="passive"/>
-      <node ref="C516" pin="2" pintype="passive"/>
+    <net code="57" name="/ARCHITECTURE/DIGITAL AND HMI/VDDA" class="Default">
+      <node ref="C510" pin="2" pintype="passive"/>
+      <node ref="C511" pin="2" pintype="passive"/>
       <node ref="FB501" pin="1" pintype="passive"/>
-      <node ref="U502" pin="15" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U501" pin="15" pinfunction="VDDA" pintype="power_in"/>
     </net>
-    <net code="57" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/XTAL" class="Default">
+    <net code="58" name="/ARCHITECTURE/DIGITAL AND HMI/XTAL" class="Default">
       <node ref="C503" pin="1" pintype="passive"/>
-      <node ref="R503" pin="1" pintype="passive"/>
+      <node ref="R507" pin="1" pintype="passive"/>
       <node ref="Y501" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="58" name="/PROJECT ARCHITECTURE/DIGITAL AND HMI/~{RST}" class="Default">
-      <node ref="C508" pin="2" pintype="passive"/>
-      <node ref="R507" pin="2" pintype="passive"/>
-      <node ref="U502" pin="4" pinfunction="PG10" pintype="bidirectional"/>
+    <net code="59" name="/ARCHITECTURE/DIGITAL AND HMI/~{RST}" class="Default">
+      <node ref="C507" pin="2" pintype="passive"/>
+      <node ref="R505" pin="2" pintype="passive"/>
+      <node ref="U501" pin="4" pinfunction="PG10" pintype="bidirectional"/>
     </net>
-    <net code="59" name="/PROJECT ARCHITECTURE/POWER/GATE_RPP" class="Default">
+    <net code="60" name="/ARCHITECTURE/POWER/GATE_RPP" class="Default">
       <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q401" pin="1" pintype="input"/>
       <node ref="R401" pin="1" pintype="passive"/>
       <node ref="R402" pin="1" pintype="passive"/>
     </net>
-    <net code="60" name="/PROJECT ARCHITECTURE/POWER/VBATT_FUSED" class="Default">
+    <net code="61" name="/ARCHITECTURE/POWER/VBATT_FUSED" class="Default">
       <node ref="F401" pin="2" pintype="passive"/>
       <node ref="Q401" pin="2" pintype="passive"/>
     </net>
-    <net code="61" name="/PROJECT ARCHITECTURE/POWER/VBATT_RAW" class="Default">
+    <net code="62" name="/ARCHITECTURE/POWER/VBATT_RAW" class="Default">
       <node ref="F401" pin="1" pintype="passive"/>
       <node ref="J401" pin="1" pintype="passive"/>
       <node ref="J402" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP401" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="62" name="GND" class="Default">
+    <net code="63" name="GND" class="Default">
       <node ref="C401" pin="2" pintype="passive"/>
       <node ref="C402" pin="2" pintype="passive"/>
       <node ref="C403" pin="2" pintype="passive"/>
@@ -4829,15 +4917,15 @@
       <node ref="C501" pin="1" pintype="passive"/>
       <node ref="C502" pin="1" pintype="passive"/>
       <node ref="C503" pin="2" pintype="passive"/>
-      <node ref="C504" pin="2" pintype="passive"/>
+      <node ref="C504" pin="1" pintype="passive"/>
       <node ref="C505" pin="2" pintype="passive"/>
       <node ref="C506" pin="1" pintype="passive"/>
       <node ref="C507" pin="1" pintype="passive"/>
-      <node ref="C508" pin="1" pintype="passive"/>
+      <node ref="C508" pin="2" pintype="passive"/>
       <node ref="C509" pin="1" pintype="passive"/>
       <node ref="C510" pin="1" pintype="passive"/>
-      <node ref="C515" pin="1" pintype="passive"/>
-      <node ref="C516" pin="1" pintype="passive"/>
+      <node ref="C511" pin="1" pintype="passive"/>
+      <node ref="C512" pin="1" pintype="passive"/>
       <node ref="C601" pin="2" pintype="passive"/>
       <node ref="C602" pin="2" pintype="passive"/>
       <node ref="C604" pin="2" pintype="passive"/>
@@ -4852,7 +4940,7 @@
       <node ref="C702" pin="2" pintype="passive"/>
       <node ref="C703" pin="2" pintype="passive"/>
       <node ref="C705" pin="2" pintype="passive"/>
-      <node ref="C708" pin="2" pintype="passive"/>
+      <node ref="C707" pin="2" pintype="passive"/>
       <node ref="D501" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D502" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D503" pin="2" pinfunction="A2" pintype="passive"/>
@@ -4865,19 +4953,20 @@
       <node ref="H404" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J401" pin="2" pintype="passive"/>
       <node ref="J402" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J501" pin="A1" pinfunction="GND" pintype="passive"/>
-      <node ref="J501" pin="A12" pinfunction="GND" pintype="passive"/>
-      <node ref="J501" pin="B1" pinfunction="GND" pintype="passive"/>
-      <node ref="J501" pin="B12" pinfunction="GND" pintype="passive"/>
-      <node ref="J501" pin="S1" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J502" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J501" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J501" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="J502" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J502" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J502" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J502" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J502" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J601" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="J602" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="J603" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="R401" pin="2" pintype="passive"/>
-      <node ref="R504" pin="1" pintype="passive"/>
-      <node ref="R505" pin="2" pintype="passive"/>
-      <node ref="R506" pin="1" pintype="passive"/>
+      <node ref="R508" pin="2" pintype="passive"/>
+      <node ref="R509" pin="1" pintype="passive"/>
+      <node ref="R510" pin="1" pintype="passive"/>
       <node ref="R611" pin="1" pintype="passive"/>
       <node ref="R613" pin="1" pintype="passive"/>
       <node ref="R624" pin="1" pintype="passive"/>
@@ -4889,10 +4978,10 @@
       <node ref="TP603" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TP604" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U401" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U501" pin="2" pinfunction="GND" pintype="passive"/>
-      <node ref="U502" pin="14" pinfunction="VSSA" pintype="power_in"/>
-      <node ref="U502" pin="16" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U502" pin="32" pinfunction="VSS" pintype="passive"/>
+      <node ref="U501" pin="14" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U501" pin="16" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U501" pin="32" pinfunction="VSS" pintype="passive"/>
+      <node ref="U502" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U601" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U602" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U603" pin="4" pinfunction="V-" pintype="power_in"/>
@@ -4901,40 +4990,40 @@
       <node ref="U701" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U702" pin="4" pinfunction="V-" pintype="power_in"/>
     </net>
-    <net code="63" name="Net-(D501-A)" class="Default">
+    <net code="64" name="Net-(D501-A)" class="Default">
       <node ref="D501" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R501" pin="1" pintype="passive"/>
     </net>
-    <net code="64" name="Net-(D502-A)" class="Default">
+    <net code="65" name="Net-(D502-A)" class="Default">
       <node ref="D502" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R502" pin="1" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(J502-SWCLK)" class="Default">
-      <node ref="J502" pin="4" pinfunction="SWCLK" pintype="output"/>
-      <node ref="R510" pin="1" pintype="passive"/>
+    <net code="66" name="Net-(J501-JCLK/SWCLK)" class="Default">
+      <node ref="J501" pin="6" pinfunction="JCLK/SWCLK" pintype="output"/>
+      <node ref="R503" pin="1" pintype="passive"/>
     </net>
-    <net code="66" name="Net-(J502-SWDIO)" class="Default">
-      <node ref="J502" pin="2" pinfunction="SWDIO" pintype="bidirectional"/>
-      <node ref="R509" pin="1" pintype="passive"/>
+    <net code="67" name="Net-(J501-JTDO/SWO)" class="Default">
+      <node ref="J501" pin="8" pinfunction="JTDO/SWO" pintype="input"/>
+      <node ref="R506" pin="1" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(J502-SWO)" class="Default">
-      <node ref="J502" pin="6" pinfunction="SWO" pintype="input"/>
-      <node ref="R508" pin="1" pintype="passive"/>
+    <net code="68" name="Net-(J501-JTMS/SWDIO)" class="Default">
+      <node ref="J501" pin="4" pinfunction="JTMS/SWDIO" pintype="bidirectional"/>
+      <node ref="R504" pin="1" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(J502-~{RESET})" class="Default">
-      <node ref="J502" pin="3" pinfunction="~{RESET}" pintype="open_collector"/>
-      <node ref="R507" pin="1" pintype="passive"/>
-    </net>
-    <net code="69" name="Net-(U502-PB8)" class="Default">
+    <net code="69" name="Net-(J501-~{RST})" class="Default">
+      <node ref="J501" pin="12" pinfunction="~{RST}" pintype="open_collector"/>
       <node ref="R505" pin="1" pintype="passive"/>
-      <node ref="U502" pin="31" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="70" name="Net-(U601B-+)" class="Default">
+    <net code="70" name="Net-(U501-PB8)" class="Default">
+      <node ref="R508" pin="1" pintype="passive"/>
+      <node ref="U501" pin="31" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="Net-(U601B-+)" class="Default">
       <node ref="R623" pin="1" pintype="passive"/>
       <node ref="R624" pin="2" pintype="passive"/>
       <node ref="U601" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="71" name="VBATT" class="Default">
+    <net code="72" name="VBATT" class="Default">
       <node ref="C402" pin="1" pintype="passive"/>
       <node ref="C403" pin="1" pintype="passive"/>
       <node ref="D401" pin="1" pinfunction="K" pintype="passive"/>
@@ -4943,25 +5032,22 @@
       <node ref="R402" pin="2" pintype="passive"/>
       <node ref="TP402" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="72" name="VBUS" class="Default">
-      <node ref="C504" pin="1" pintype="passive"/>
+    <net code="73" name="VBUS" class="Default">
       <node ref="C505" pin="1" pintype="passive"/>
+      <node ref="C508" pin="1" pintype="passive"/>
       <node ref="D503" pin="1" pinfunction="A1" pintype="passive"/>
-      <node ref="J501" pin="A4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="J501" pin="A9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="J501" pin="B4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="J501" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="F501" pin="2" pintype="passive"/>
       <node ref="JP401" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="TP501" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="73" name="VIN_SEL" class="Default">
+    <net code="74" name="VIN_SEL" class="Default">
       <node ref="C401" pin="1" pintype="passive"/>
       <node ref="C404" pin="2" pintype="passive"/>
       <node ref="JP401" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="U401" pin="1" pinfunction="IN" pintype="power_in"/>
       <node ref="U401" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="74" name="VREF_ECG" class="Default">
+    <net code="75" name="VREF_ECG" class="Default">
       <node ref="C612" pin="1" pintype="passive"/>
       <node ref="C613" pin="1" pintype="passive"/>
       <node ref="C615" pin="2" pintype="passive"/>
@@ -4971,47 +5057,68 @@
       <node ref="U604" pin="3" pinfunction="+" pintype="input"/>
       <node ref="U605" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="75" name="unconnected-(J401-Pad3)" class="Default">
+    <net code="76" name="unconnected-(J401-Pad3)" class="Default">
       <node ref="J401" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(J501-SBU1-PadA8)" class="Default">
-      <node ref="J501" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    <net code="77" name="unconnected-(J501-GNDDetect-Pad11)" class="Default">
+      <node ref="J501" pin="11" pinfunction="GNDDetect" pintype="passive+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(J501-SBU2-PadB8)" class="Default">
-      <node ref="J501" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    <net code="78" name="unconnected-(J501-JRCLK/NC-Pad9)" class="Default">
+      <node ref="J501" pin="9" pinfunction="JRCLK/NC" pintype="input+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U401-NC-Pad4)" class="Default">
+    <net code="79" name="unconnected-(J501-JTDI/NC-Pad10)" class="Default">
+      <node ref="J501" pin="10" pinfunction="JTDI/NC" pintype="output+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J501-NC-Pad1)" class="Default">
+      <node ref="J501" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J501-NC-Pad2)" class="Default">
+      <node ref="J501" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(J501-VCP_RX-Pad13)" class="Default">
+      <node ref="J501" pin="13" pinfunction="VCP_RX" pintype="output+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(J501-VCP_TX-Pad14)" class="Default">
+      <node ref="J501" pin="14" pinfunction="VCP_TX" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J502-SBU1-PadA8)" class="Default">
+      <node ref="J502" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(J502-SBU2-PadB8)" class="Default">
+      <node ref="J502" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U401-NC-Pad4)" class="Default">
       <node ref="U401" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U502-PA2-Pad7)" class="Default">
-      <node ref="U502" pin="7" pinfunction="PA2" pintype="bidirectional+no_connect"/>
+    <net code="87" name="unconnected-(U501-PA2-Pad7)" class="Default">
+      <node ref="U501" pin="7" pinfunction="PA2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U502-PA3-Pad8)" class="Default">
-      <node ref="U502" pin="8" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    <net code="88" name="unconnected-(U501-PA3-Pad8)" class="Default">
+      <node ref="U501" pin="8" pinfunction="PA3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U502-PA5-Pad10)" class="Default">
-      <node ref="U502" pin="10" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    <net code="89" name="unconnected-(U501-PA5-Pad10)" class="Default">
+      <node ref="U501" pin="10" pinfunction="PA5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U502-PA6-Pad11)" class="Default">
-      <node ref="U502" pin="11" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    <net code="90" name="unconnected-(U501-PA6-Pad11)" class="Default">
+      <node ref="U501" pin="11" pinfunction="PA6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U502-PA15-Pad25)" class="Default">
-      <node ref="U502" pin="25" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    <net code="91" name="unconnected-(U501-PA15-Pad25)" class="Default">
+      <node ref="U501" pin="25" pinfunction="PA15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U502-PB0-Pad13)" class="Default">
-      <node ref="U502" pin="13" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    <net code="92" name="unconnected-(U501-PB0-Pad13)" class="Default">
+      <node ref="U501" pin="13" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U502-PB4-Pad27)" class="Default">
-      <node ref="U502" pin="27" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    <net code="93" name="unconnected-(U501-PB4-Pad27)" class="Default">
+      <node ref="U501" pin="27" pinfunction="PB4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U502-PB5-Pad28)" class="Default">
-      <node ref="U502" pin="28" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    <net code="94" name="unconnected-(U501-PB5-Pad28)" class="Default">
+      <node ref="U501" pin="28" pinfunction="PB5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U502-PB6-Pad29)" class="Default">
-      <node ref="U502" pin="29" pinfunction="PB6" pintype="bidirectional+no_connect"/>
+    <net code="95" name="unconnected-(U501-PB6-Pad29)" class="Default">
+      <node ref="U501" pin="29" pinfunction="PB6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U502-PB7-Pad30)" class="Default">
-      <node ref="U502" pin="30" pinfunction="PB7" pintype="bidirectional+no_connect"/>
+    <net code="96" name="unconnected-(U501-PB7-Pad30)" class="Default">
+      <node ref="U501" pin="30" pinfunction="PB7" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>
