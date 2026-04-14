@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-04-14
+
 ### Fixed
 
 -   Add ground pour underneath uC
@@ -40,7 +42,9 @@
 -   Schematic capture
 -   Preliminary PCB layout
 
-[Unreleased]: https://github.com/Reemuson/MENG4210-Project/compare/1.0.3...HEAD
+[Unreleased]: https://github.com/Reemuson/MENG4210-Project/compare/1.1.0...HEAD
+
+[1.1.0]: https://github.com/Reemuson/MENG4210-Project/compare/1.0.3...1.1.0
 
 [1.0.3]: https://github.com/Reemuson/MENG4210-Project/compare/1.0.2...1.0.3
 
