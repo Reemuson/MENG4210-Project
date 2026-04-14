@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AZV3002S_13'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AZV3002S-13" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "621-AZV3002S-13", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZV3002S-13?qs=ma0NyvTRVt0EcfML8tbxlQ%3D%3D", "AZV3002S-13", "https://www.arrow.com/en/products/azv3002s-13/diodes-incorporated?utm_currency=USD&region=nac", "Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V", "https://www.diodes.com//assets/Datasheets/AZV3001.pdf", "1.75 mm"
+END_PART
+
+END.

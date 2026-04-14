@@ -1,0 +1,75 @@
+ERC report (2026-04-14T14:34:28+0000, Encoding UTF8)
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(0.6604 mm, 0.5334 mm): Symbol TP401 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.27 mm, 0.5461 mm): Symbol TP402 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(2.032 mm, 0.762 mm): Symbol TP403 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(2.3622 mm, 0.6985 mm): Symbol TP404 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Symbols-Silkscreen'.
+    ; warning
+    @(2.4765 mm, 0.9144 mm): Symbol ID401 [BOARD_STACKUP_MARKER]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Ryan-Dynamics'
+    ; warning
+    @(2.4765 mm, 0.9144 mm): Symbol ID401 [BOARD_STACKUP_MARKER]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.778 mm, 0.8255 mm): Symbol TP601 [TestPoint_PMK_Probe]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Ryan-Dynamics'
+    ; warning
+    @(1.778 mm, 0.8255 mm): Symbol TP601 [TestPoint_PMK_Probe]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(2.159 mm, 0.8001 mm): Symbol TP604 [TestPoint_PMK_Probe]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Ryan-Dynamics'
+    ; warning
+    @(2.159 mm, 0.8001 mm): Symbol TP604 [TestPoint_PMK_Probe]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(1.778 mm, 1.524 mm): Symbol TP602 [TestPoint_PMK_Probe]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Ryan-Dynamics'
+    ; warning
+    @(1.778 mm, 1.524 mm): Symbol TP602 [TestPoint_PMK_Probe]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(2.0193 mm, 2.2225 mm): Symbol TP603 [TestPoint_PMK_Probe]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Ryan-Dynamics'
+    ; warning
+    @(2.0193 mm, 2.2225 mm): Symbol TP603 [TestPoint_PMK_Probe]
+
+[lib_symbol_mismatch]: Symbol 'STM32G441KBTx' doesn't match copy in library 'MCU_ST_STM32G4'
+    ; warning
+    @(2.5908 mm, 1.0033 mm): Symbol U501 [STM32G441KBTx]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'RD-Testpoints'.
+    ; warning
+    @(2.3495 mm, 1.5875 mm): Symbol TP501 [TestPoint]
+
+***** Sheet /BLOCK DIAGRAM/
+***** Sheet /ARCHITECTURE/
+***** Sheet /ARCHITECTURE/POWER/
+***** Sheet /ARCHITECTURE/DIGITAL AND HMI/
+***** Sheet /ARCHITECTURE/ANALOGUE INPUTS/
+***** Sheet /ARCHITECTURE/ANALOGUE OUTPUTS/
+***** Sheet /REVISION HISTORY/
+ ** ERC messages: 16  Errors 0  Warnings 16

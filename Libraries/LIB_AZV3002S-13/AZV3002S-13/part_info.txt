@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AZV3002S-13
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2020-03-25 02:49:02
+Downloaded=2026-02-05 11:24:36
+3D=Y
