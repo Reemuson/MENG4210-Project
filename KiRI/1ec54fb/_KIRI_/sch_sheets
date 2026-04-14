@@ -1,0 +1,8 @@
+DREAM|DREAM.kicad_sch||DREAM|DREAM
+Project Architecture|Project Architecture.kicad_sch||ARCHITECTURE|DREAM-ARCHITECTURE
+Analogue-Inputs|Analogue-Inputs.kicad_sch||ANALOGUE INPUTS|DREAM-ARCHITECTURE-ANALOGUE INPUTS
+Analogue-Outputs|Analogue-Outputs.kicad_sch||ANALOGUE OUTPUTS|DREAM-ARCHITECTURE-ANALOGUE OUTPUTS
+Microcontroller|Microcontroller.kicad_sch||DIGITAL AND HMI|DREAM-ARCHITECTURE-DIGITAL AND HMI
+Power|Power.kicad_sch||POWER|DREAM-ARCHITECTURE-POWER
+Block Diagram|Block Diagram.kicad_sch||BLOCK DIAGRAM|DREAM-BLOCK DIAGRAM
+Revision History|Revision History.kicad_sch||REVISION HISTORY|DREAM-REVISION HISTORY

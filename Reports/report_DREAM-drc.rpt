@@ -1,5 +1,5 @@
 ** Drc report for DREAM.kicad_pcb **
-** Created on 2026-04-14T14:23:19+0000 **
+** Created on 2026-04-14T14:34:30+0000 **
 
 ** Found 115 DRC violations **
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
