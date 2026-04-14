@@ -1,2 +1,4 @@
 _local_|2026-04-14|root|Local changes not committed|False|True
+d68b78b|2026-04-15|Reemuson|fix: improved crystal oscillator layout|True|True
+6eea11a|2026-04-14|GitHub Actions|Update Outputs (release)|False|True
 85be26d|2026-04-15|Reemuson|fix: net naming, NC STM32 pins, silkscreen, pin 1 indicator|True|True
