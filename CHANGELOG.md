@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+### Added
+
+- Ground pour underneath XTAL.
+- Untented via flag set
+- Production files
+
 ## [1.0.0] - 2026-04-14
 
 ### Added
