@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+-   Crystal oscillator layout, isolated ground pour, ground perimeter
+
 ## [1.0.2] - 2026-04-14
 
 ### Added
