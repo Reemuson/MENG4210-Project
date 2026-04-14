@@ -2318,7 +2318,7 @@
 		)
 		(uuid "e20d3103-8fe3-4738-8cbd-a49721d2cb51")
 	)
-	(text_box "DESIGN NOTE:\nThe 0.61V VREF is generated to bias the output to 0.61V, with A_{v} ≈ 24.9 this gives a maximal headroom."
+	(text_box "DESIGN NOTE:\nThe 0.61V VREF is generated to bias the output, with A_{v} ≈ 24.9 this gives a maximal headroom."
 		(exclude_from_sim no)
 		(at 250.19 113.03 0)
 		(size 63.5 8.89)
@@ -2341,10 +2341,10 @@
 		)
 		(uuid "e2831cf2-c746-41b3-946b-25a6a9e728c7")
 	)
-	(text_box "DESIGN NOTE:\nNon-inverting integrator used to integrate ECG_FILT over a large time constant to return an error signal SERVO_OUT fed into the gain stage UxA, ensuring EGC_OUT is biased to VREF_EGC for maximum headroom."
+	(text_box "DESIGN NOTE:\nNon-inverting integrator used to integrate ECG_FILT over a large time constant to return an error signal SERVO_OUT fed into the gain stage U605A, ensuring EGC_OUT is biased to VREF_EGC for maximum headroom."
 		(exclude_from_sim no)
 		(at 254 95.25 0)
-		(size 63.5 11.43)
+		(size 64.77 11.43)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
 			(width 0.8)
@@ -2387,7 +2387,7 @@
 		)
 		(uuid "e6fc02f7-57a5-482d-94d8-e0d0a367c9ec")
 	)
-	(text_box "DESIGN NOTE:\nDiodes and series resistor to clamp to 3V3 and GND for protection.\nTypical for all analogue inputs."
+	(text_box "DESIGN NOTE:\nDiodes and series resistor to clamp to +3V0 and GND for protection.\nTypical for all analogue inputs."
 		(exclude_from_sim no)
 		(at 49.53 92.71 0)
 		(size 26.67 13.97)
@@ -3050,7 +3050,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 92.71) (xy 317.5 95.25)
+			(xy 288.29 92.71) (xy 318.77 95.25)
 		)
 		(stroke
 			(width 0)

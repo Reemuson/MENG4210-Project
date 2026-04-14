@@ -945,8 +945,8 @@
 		(uuid 234662cf-f7a3-47ff-84f9-120f9ae160a3)
 	)
 	(rectangle
-		(start -6.35 109.22)
-		(end 1.27 124.46)
+		(start -26.67 113.03)
+		(end -19.05 128.27)
 		(stroke
 			(width 0)
 			(type dot)
@@ -1133,7 +1133,7 @@
 	)
 	(text_box "LAYOUT NOTE:\nblablabla"
 		(exclude_from_sim no)
-		(at -69.85 96.52 0)
+		(at -90.17 100.33 0)
 		(size 26.67 11.43)
 		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
@@ -1181,7 +1181,7 @@
 	)
 	(text_box "DESIGN NOTE:\nblablabla"
 		(exclude_from_sim no)
-		(at -40.64 123.19 0)
+		(at -60.96 127 0)
 		(size 21.59 11.43)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -1440,7 +1440,7 @@
 	)
 	(polyline
 		(pts
-			(xy -6.35 119.38) (xy -19.05 123.19)
+			(xy -26.67 123.19) (xy -39.37 127)
 		)
 		(stroke
 			(width 0)
