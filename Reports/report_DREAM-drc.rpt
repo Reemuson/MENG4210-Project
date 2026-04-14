@@ -1,7 +1,28 @@
 ** Drc report for DREAM.kicad_pcb **
-** Created on 2026-04-14T15:59:40+0000 **
+** Created on 2026-04-14T16:42:53+0000 **
 
-** Found 144 DRC violations **
+** Found 152 DRC violations **
+[via_dangling]: Via is not connected or connected on only one layer
+    ; warning
+    @(237.43 mm, 143.45 mm): Via [unconnected-(U501-PB5-Pad28)] on L1 (Sig, PWR) - L2 (Sig, GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    ; warning
+    @(237.43 mm, 142.18 mm): Via [unconnected-(U501-PB6-Pad29)] on L1 (Sig, PWR) - L2 (Sig, GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    ; warning
+    @(237.43 mm, 140.91 mm): Via [unconnected-(U501-PB7-Pad30)] on L1 (Sig, PWR) - L2 (Sig, GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    ; warning
+    @(238.7 mm, 147.26 mm): Via [unconnected-(U501-PA15-Pad25)] on L1 (Sig, PWR) - L2 (Sig, GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    ; warning
+    @(237.43 mm, 144.72 mm): Via [unconnected-(U501-PB4-Pad27)] on L1 (Sig, PWR) - L2 (Sig, GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    ; warning
+    @(224.879798 mm, 146.139798 mm): Via [unconnected-(U501-PA3-Pad8)] on L1 (Sig, PWR) - L2 (Sig, GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    ; warning
+    @(224.095 mm, 144.72 mm): Via [unconnected-(U501-PA2-Pad7)] on L1 (Sig, PWR) - L2 (Sig, GND)
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(195.52 mm, 132.02 mm): Footprint R612
@@ -320,6 +341,9 @@
 [silk_over_copper]: Silkscreen clipped by solder mask
     ; warning
     @(248.75 mm, 142.18 mm): Reference field of F501
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(236.9728 mm, 145.532801 mm): Reference field of U501
 [silk_over_copper]: Silkscreen clipped by solder mask
     ; warning
     @(199.9818 mm, 158.365 mm): Segment of D501 on F.Silkscreen

@@ -1,2 +1,2 @@
 _local_|2026-04-14|root|Local changes not committed|False|True
-53ebe71|2026-04-15|Reemuson|fix: ground under XTAL, untent vias, production files|True|True
+85be26d|2026-04-15|Reemuson|fix: net naming, NC STM32 pins, silkscreen, pin 1 indicator|True|True

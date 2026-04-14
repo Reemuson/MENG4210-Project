@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">53ebe71</textvar>
-    <textvar name="GIT_HASH_SCH">53ebe71</textvar>
+    <textvar name="GIT_HASH_PCB">85be26d</textvar>
+    <textvar name="GIT_HASH_SCH">85be26d</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Project</textvar>
     <textvar name="PROJECT_NAME">MENG420 PROJ</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -86,17 +86,31 @@ Added
 -   Untented via flag set
 
 -   Production files</textvar>
-    <textvar name="RELEASE_BODY_1.0.2"/>
+    <textvar name="RELEASE_BODY_1.0.2">___________________________________
+
+Added
+
+-   Added some silkscreen flair
+
+-   Broke out unused STM32 pins to vias
+
+-   Added pin 1 indicator to JTAG header
+
+## Fixed
+
+-   Changed VBUS_RAW to VBUS
+
+-   Changed VBUS to VUSB</textvar>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">14-Apr-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2026-04-14</textvar>
-    <textvar name="RELEASE_TITLE_1.0.2"/>
+    <textvar name="RELEASE_TITLE_1.0.2">Version 1.0.2 - 2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.1</textvar>
+    <textvar name="REVISION">1.0.2</textvar>
     <textvar name="SHEET_NAME_1">COVER PAGE</textvar>
     <textvar name="SHEET_NAME_10">................................</textvar>
     <textvar name="SHEET_NAME_11">................................</textvar>
@@ -142,7 +156,7 @@ Added
       <title_block>
         <title/>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.2</rev>
         <date>Date2</date>
         <source>DREAM.kicad_sch</source>
         <comment number="1" value=""/>
@@ -160,7 +174,7 @@ Added
       <title_block>
         <title>BLOCK DIAGRAM</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.2</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -178,7 +192,7 @@ Added
       <title_block>
         <title>ARCHITECTURE</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.2</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -196,7 +210,7 @@ Added
       <title_block>
         <title>POWER</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.2</rev>
         <date>Date2</date>
         <source>Power.kicad_sch</source>
         <comment number="1" value=""/>
@@ -214,7 +228,7 @@ Added
       <title_block>
         <title>DIGITAL AND HMI</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.2</rev>
         <date>Date2</date>
         <source>Microcontroller.kicad_sch</source>
         <comment number="1" value=""/>
@@ -232,7 +246,7 @@ Added
       <title_block>
         <title>ANALOGUE INPUTS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.2</rev>
         <date>Date2</date>
         <source>Analogue-Inputs.kicad_sch</source>
         <comment number="1" value=""/>
@@ -250,7 +264,7 @@ Added
       <title_block>
         <title>ANALOGUE OUTPUTS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.2</rev>
         <date>Date2</date>
         <source>Analogue-Outputs.kicad_sch</source>
         <comment number="1" value=""/>
@@ -268,7 +282,7 @@ Added
       <title_block>
         <title>REVISION HISTORY</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.2</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
@@ -1843,7 +1857,7 @@ Added
       <tstamps>9d446a98-42ac-47a3-8d6f-e35d8164bb9f</tstamps>
     </comp>
     <comp ref="TP501">
-      <value>VBUS</value>
+      <value>VUSB</value>
       <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
@@ -4883,7 +4897,7 @@ Added
       <node ref="R506" pin="2" pintype="passive"/>
       <node ref="U501" pin="26" pinfunction="SYS_JTDO-SWO" pintype="bidirectional"/>
     </net>
-    <net code="56" name="/ARCHITECTURE/DIGITAL AND HMI/VBUS_RAW" class="Default">
+    <net code="56" name="/ARCHITECTURE/DIGITAL AND HMI/VBUS" class="Default">
       <node ref="F501" pin="1" pintype="passive"/>
       <node ref="J502" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J502" pin="A9" pinfunction="VBUS" pintype="passive"/>
@@ -5046,22 +5060,14 @@ Added
       <node ref="R402" pin="2" pintype="passive"/>
       <node ref="TP402" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="73" name="VBUS" class="Default">
-      <node ref="C505" pin="1" pintype="passive"/>
-      <node ref="C508" pin="1" pintype="passive"/>
-      <node ref="D503" pin="1" pinfunction="A1" pintype="passive"/>
-      <node ref="F501" pin="2" pintype="passive"/>
-      <node ref="JP401" pin="3" pinfunction="B" pintype="passive"/>
-      <node ref="TP501" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="74" name="VIN_SEL" class="Default">
+    <net code="73" name="VIN_SEL" class="Default">
       <node ref="C401" pin="1" pintype="passive"/>
       <node ref="C404" pin="2" pintype="passive"/>
       <node ref="JP401" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="U401" pin="1" pinfunction="IN" pintype="power_in"/>
       <node ref="U401" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="75" name="VREF_ECG" class="Default">
+    <net code="74" name="VREF_ECG" class="Default">
       <node ref="C612" pin="1" pintype="passive"/>
       <node ref="C613" pin="1" pintype="passive"/>
       <node ref="C615" pin="2" pintype="passive"/>
@@ -5070,6 +5076,14 @@ Added
       <node ref="U601" pin="7" pintype="output"/>
       <node ref="U604" pin="3" pinfunction="+" pintype="input"/>
       <node ref="U605" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="75" name="VUSB" class="Default">
+      <node ref="C505" pin="1" pintype="passive"/>
+      <node ref="C508" pin="1" pintype="passive"/>
+      <node ref="D503" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="F501" pin="2" pintype="passive"/>
+      <node ref="JP401" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="TP501" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="76" name="unconnected-(J401-Pad3)" class="Default">
       <node ref="J401" pin="3" pintype="passive+no_connect"/>
