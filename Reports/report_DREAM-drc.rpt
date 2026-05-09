@@ -1,7 +1,13 @@
 ** Drc report for DREAM.kicad_pcb **
-** Created on 2026-04-14T17:43:30+0000 **
+** Created on 2026-05-09T09:42:46+0000 **
 
 ** Found 152 DRC violations **
+[drill_out_of_range]: Hole size out of range (rule 'MENG4210 Minimum Non-plated Hole Size' min hole 0.8000 mm; actual 0.6500 mm)
+    ; error
+    @(256.22 mm, 150.39 mm): NPTH pad of J502
+[drill_out_of_range]: Hole size out of range (rule 'MENG4210 Minimum Non-plated Hole Size' min hole 0.8000 mm; actual 0.6500 mm)
+    ; error
+    @(256.22 mm, 144.61 mm): NPTH pad of J502
 [via_dangling]: Via is not connected or connected on only one layer
     ; warning
     @(237.43 mm, 143.45 mm): Via [unconnected-(U501-PB5-Pad28)] on L1 (Sig, PWR) - L2 (Sig, GND)
@@ -23,12 +29,18 @@
 [via_dangling]: Via is not connected or connected on only one layer
     ; warning
     @(224.095 mm, 144.72 mm): Via [unconnected-(U501-PA2-Pad7)] on L1 (Sig, PWR) - L2 (Sig, GND)
+[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(247.5 mm, 147.5 mm): Footprint U502
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(195.52 mm, 132.02 mm): Footprint R612
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(192.98 mm, 122.685 mm): Footprint R608
+[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
+    ; warning
+    @(180.0 mm, 150.0 mm): Footprint D606
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(196.345 mm, 117.415 mm): Footprint R614
@@ -59,9 +71,15 @@
 [lib_footprint_mismatch]: Footprint 'L_0603_1608Metric' does not match copy in library 'Inductor_SMD'.
     ; warning
     @(226.635 mm, 158.055 mm): Footprint FB501
+[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
+    ; warning
+    @(180.0 mm, 130.0 mm): Footprint D603
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(221.4788 mm, 144.1612 mm): Footprint R619
+[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
+    ; warning
+    @(180.0 mm, 135.0 mm): Footprint D604
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(221.696698 mm, 152.356372 mm): Footprint R503
@@ -89,6 +107,9 @@
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(224.816992 mm, 140.996992 mm): Footprint C507
+[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
+    ; warning
+    @(180.0 mm, 145.0 mm): Footprint D605
 [lib_footprint_mismatch]: Footprint 'R_1812_4532Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(251.4 mm, 142.18 mm): Footprint F501
@@ -107,6 +128,9 @@
 [lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
     ; warning
     @(220.915 mm, 105.35 mm): Footprint J701
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(242.5 mm, 137.5 mm): Footprint U401
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(188.345 mm, 141.545 mm): Footprint R624
@@ -158,12 +182,18 @@
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(235.611992 mm, 158.603008 mm): Footprint C504
+[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
+    ; warning
+    @(180.0 mm, 115.0 mm): Footprint D601
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(211.9284 mm, 146.625 mm): Footprint R613
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(200.46 mm, 147.26 mm): Footprint C606
+[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
+    ; warning
+    @(180.0 mm, 120.0 mm): Footprint D602
 [lib_footprint_mismatch]: Footprint 'SOIC-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'.
     ; warning
     @(205.68 mm, 146.625 mm): Footprint U602
@@ -206,6 +236,12 @@
 [lib_footprint_mismatch]: Footprint 'R_1812_4532Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(247.5 mm, 126.5 mm): Footprint F401
+[lib_footprint_mismatch]: Footprint 'TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal' does not match copy in library 'TerminalBlock_Phoenix'.
+    ; warning
+    @(257.972301 mm, 134.433001 mm): Footprint J402
+[lib_footprint_mismatch]: Footprint 'BarrelJack_Kycon_KLDX-0202-xC_Horizontal' does not match copy in library 'Connector_BarrelJack'.
+    ; warning
+    @(248.05 mm, 117.5 mm): Footprint J401
 [lib_footprint_mismatch]: Footprint 'SOIC-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'.
     ; warning
     @(191.075 mm, 118.05 mm): Footprint U604
@@ -422,45 +458,591 @@
 [nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
     ; warning
     @(219.2436 mm, 104.7404 mm): PCB text 'V+' on B.Silkscreen
-[drill_out_of_range]: Hole size out of range (rule 'MENG4210 Minimum Non-plated Hole Size' min hole 0.8000 mm; actual 0.6500 mm)
-    ; error (excluded)
-    @(256.22 mm, 150.39 mm): NPTH pad of J502
-[drill_out_of_range]: Hole size out of range (rule 'MENG4210 Minimum Non-plated Hole Size' min hole 0.8000 mm; actual 0.6500 mm)
-    ; error (excluded)
-    @(256.22 mm, 144.61 mm): NPTH pad of J502
-[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
-    ; warning (excluded)
-    @(247.5 mm, 147.5 mm): Footprint U502
-[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
-    ; warning (excluded)
-    @(180.0 mm, 150.0 mm): Footprint D606
-[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
-    ; warning (excluded)
-    @(180.0 mm, 130.0 mm): Footprint D603
-[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
-    ; warning (excluded)
-    @(180.0 mm, 135.0 mm): Footprint D604
-[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
-    ; warning (excluded)
-    @(180.0 mm, 145.0 mm): Footprint D605
-[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
-    ; warning (excluded)
-    @(242.5 mm, 137.5 mm): Footprint U401
-[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
-    ; warning (excluded)
-    @(180.0 mm, 115.0 mm): Footprint D601
-[lib_footprint_mismatch]: Footprint 'D_SOD-323_HandSoldering' does not match copy in library 'Diode_SMD'.
-    ; warning (excluded)
-    @(180.0 mm, 120.0 mm): Footprint D602
-[lib_footprint_mismatch]: Footprint 'TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal' does not match copy in library 'TerminalBlock_Phoenix'.
-    ; warning (excluded)
-    @(257.972301 mm, 134.433001 mm): Footprint J402
-[lib_footprint_mismatch]: Footprint 'BarrelJack_Kycon_KLDX-0202-xC_Horizontal' does not match copy in library 'Connector_BarrelJack'.
-    ; warning (excluded)
-    @(248.05 mm, 117.5 mm): Footprint J401
 
 ** Found 0 unconnected pads **
 
-** Found 0 Footprint errors **
+** Found 194 Footprint errors **
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/BTN) doesn't match net given by schematic (/CIRCUIT/BTN).
+    ; warning
+    @(196.155 mm, 159.96 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/BTN] of C501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/OSC_IN) doesn't match net given by schematic (/CIRCUIT/OSC_IN).
+    ; warning
+    @(231.615001 mm, 139.64 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/OSC_IN] of C502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/XTAL) doesn't match net given by schematic (/CIRCUIT/XTAL).
+    ; warning
+    @(226.736 mm, 139.64 mm): Pad 1 [/ARCHITECTURE/DIGITAL AND HMI/XTAL] of C503 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/~{RST}) doesn't match net given by schematic (/CIRCUIT/~{RST}).
+    ; warning
+    @(225.365 mm, 141.545 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/~{RST}] of C507 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VDDA) doesn't match net given by schematic (VDDA).
+    ; warning
+    @(228.54 mm, 154.88 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/VDDA] of C510 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VDDA) doesn't match net given by schematic (VDDA).
+    ; warning
+    @(227.27 mm, 156.15 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/VDDA] of C511 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1).
+    ; warning
+    @(184.725 mm, 116.005 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1] of C603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1_N).
+    ; warning
+    @(184.725 mm, 117.555 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N] of C603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_RC) doesn't match net given by schematic (/CIRCUIT/ECG_SK_RC).
+    ; warning
+    @(195.52 mm, 119.955 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_RC] of C604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_RC) doesn't match net given by schematic (/CIRCUIT/CE_SK_RC).
+    ; warning
+    @(195.52 mm, 134.56 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_RC] of C605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_RC) doesn't match net given by schematic (/CIRCUIT/CO2_SK_RC).
+    ; warning
+    @(201.235 mm, 147.26 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_RC] of C606 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT) doesn't match net given by schematic (/CIRCUIT/ECG_FILT).
+    ; warning
+    @(191.075 mm, 121.86 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT] of C607 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_MID) doesn't match net given by schematic (/CIRCUIT/ECG_SK_MID).
+    ; warning
+    @(191.075 mm, 123.41 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_MID] of C607 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT) doesn't match net given by schematic (/CIRCUIT/CE_FILT).
+    ; warning
+    @(191.075 mm, 135.83 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT] of C608 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_MID) doesn't match net given by schematic (/CIRCUIT/CE_SK_MID).
+    ; warning
+    @(191.075 mm, 137.38 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_MID] of C608 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT) doesn't match net given by schematic (/CIRCUIT/CO2_FILT).
+    ; warning
+    @(207.585 mm, 150.435 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT] of C609 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_MID) doesn't match net given by schematic (/CIRCUIT/CO2_SK_MID).
+    ; warning
+    @(207.585 mm, 151.985 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_MID] of C609 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_N) doesn't match net given by schematic (/CIRCUIT/SERVO_N).
+    ; warning
+    @(211.675 mm, 117.415 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_N] of C611 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_OUT) doesn't match net given by schematic (/CIRCUIT/SERVO_OUT).
+    ; warning
+    @(210.125 mm, 117.415 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_OUT] of C611 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_P) doesn't match net given by schematic (/CIRCUIT/SERVO_P).
+    ; warning
+    @(210.76 mm, 119.815 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_P] of C612 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_RC) doesn't match net given by schematic (/CIRCUIT/SHK_SK1_RC).
+    ; warning
+    @(216.145 mm, 129.48 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_RC] of C703 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1) doesn't match net given by schematic (/CIRCUIT/SHK_FILT1).
+    ; warning
+    @(217.745 mm, 125.67 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1] of C704 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_MID) doesn't match net given by schematic (/CIRCUIT/SHK_SK1_MID).
+    ; warning
+    @(216.195 mm, 125.67 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_MID] of C704 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_RC) doesn't match net given by schematic (/CIRCUIT/SHK_SK2_RC).
+    ; warning
+    @(226.635 mm, 127.575 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_RC] of C705 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2) doesn't match net given by schematic (/CIRCUIT/SHK_FILT2).
+    ; warning
+    @(226.635 mm, 125.67 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2] of C706 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_MID) doesn't match net given by schematic (/CIRCUIT/SHK_SK2_MID).
+    ; warning
+    @(228.185 mm, 125.67 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_MID] of C706 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK) doesn't match net given by schematic (/CIRCUIT/VREF_SHK).
+    ; warning
+    @(220.235 mm, 114.24 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK] of C707 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/GATE_RPP) doesn't match net given by schematic (/CIRCUIT/GATE_RPP).
+    ; warning
+    @(243.75 mm, 106.285499 mm): Pad 2 [/ARCHITECTURE/POWER/GATE_RPP] of D401 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1_N).
+    ; warning
+    @(180.0 mm, 116.249999 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N] of D601 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1_N).
+    ; warning
+    @(180.0 mm, 118.750001 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N] of D602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN) doesn't match net given by schematic (/CIRCUIT/CE_BUFF_IN).
+    ; warning
+    @(180.0 mm, 131.249999 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN] of D603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN) doesn't match net given by schematic (/CIRCUIT/CE_BUFF_IN).
+    ; warning
+    @(180.0 mm, 133.750001 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN] of D604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN) doesn't match net given by schematic (/CIRCUIT/CO2_BUFF_IN).
+    ; warning
+    @(180.0 mm, 146.249999 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN] of D605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN) doesn't match net given by schematic (/CIRCUIT/CO2_BUFF_IN).
+    ; warning
+    @(180.0 mm, 148.750001 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN] of D606 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/VBATT_RAW) doesn't match net given by schematic (/CIRCUIT/VBATT_RAW).
+    ; warning
+    @(249.6375 mm, 126.5 mm): Pad 1 [/ARCHITECTURE/POWER/VBATT_RAW] of F401 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/VBATT_FUSED) doesn't match net given by schematic (/CIRCUIT/VBATT_FUSED).
+    ; warning
+    @(245.3625 mm, 126.5 mm): Pad 2 [/ARCHITECTURE/POWER/VBATT_FUSED] of F401 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VBUS) doesn't match net given by schematic (/CIRCUIT/VBUS).
+    ; warning
+    @(251.4 mm, 144.3175 mm): Pad 1 [/ARCHITECTURE/DIGITAL AND HMI/VBUS] of F501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VDDA) doesn't match net given by schematic (VDDA).
+    ; warning
+    @(226.078153 mm, 157.498153 mm): Pad 1 [/ARCHITECTURE/DIGITAL AND HMI/VDDA] of FB501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/VBATT_RAW) doesn't match net given by schematic (/CIRCUIT/VBATT_RAW).
+    ; warning
+    @(248.05 mm, 117.5 mm): PTH pad 1 [/ARCHITECTURE/POWER/VBATT_RAW] of J401
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/VBATT_RAW) doesn't match net given by schematic (/CIRCUIT/VBATT_RAW).
+    ; warning
+    @(257.972301 mm, 130.623001 mm): PTH pad 2 [/ARCHITECTURE/POWER/VBATT_RAW] of J402
+[footprint_symbol_mismatch]: Value (J501) doesn't match symbol value (Conn_ST_STDC14).
+    ; warning
+    @(215.84 mm, 153.61 mm): Footprint J501
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VBUS) doesn't match net given by schematic (/CIRCUIT/VBUS).
+    ; warning
+    @(255.145 mm, 149.9 mm): Pad A4 [/ARCHITECTURE/DIGITAL AND HMI/VBUS] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/CC1) doesn't match net given by schematic (/CIRCUIT/CC1).
+    ; warning
+    @(255.145001 mm, 148.75 mm): Pad A5 [/ARCHITECTURE/DIGITAL AND HMI/CC1] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/D+) doesn't match net given by schematic (/CIRCUIT/D+).
+    ; warning
+    @(255.145 mm, 147.75 mm): Pad A6 [/ARCHITECTURE/DIGITAL AND HMI/D+] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/D-) doesn't match net given by schematic (/CIRCUIT/D-).
+    ; warning
+    @(255.145 mm, 147.25 mm): Pad A7 [/ARCHITECTURE/DIGITAL AND HMI/D-] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VBUS) doesn't match net given by schematic (/CIRCUIT/VBUS).
+    ; warning
+    @(255.145 mm, 145.1 mm): Pad A9 [/ARCHITECTURE/DIGITAL AND HMI/VBUS] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VBUS) doesn't match net given by schematic (/CIRCUIT/VBUS).
+    ; warning
+    @(255.145 mm, 145.1 mm): Pad B4 [/ARCHITECTURE/DIGITAL AND HMI/VBUS] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/CC2) doesn't match net given by schematic (/CIRCUIT/CC2).
+    ; warning
+    @(255.145 mm, 145.75 mm): Pad B5 [/ARCHITECTURE/DIGITAL AND HMI/CC2] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/D+) doesn't match net given by schematic (/CIRCUIT/D+).
+    ; warning
+    @(255.145 mm, 146.75 mm): Pad B6 [/ARCHITECTURE/DIGITAL AND HMI/D+] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/D-) doesn't match net given by schematic (/CIRCUIT/D-).
+    ; warning
+    @(255.145 mm, 148.25 mm): Pad B7 [/ARCHITECTURE/DIGITAL AND HMI/D-] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VBUS) doesn't match net given by schematic (/CIRCUIT/VBUS).
+    ; warning
+    @(255.145 mm, 149.9 mm): Pad B9 [/ARCHITECTURE/DIGITAL AND HMI/VBUS] of J502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_IN) doesn't match net given by schematic (/CIRCUIT/ECG_IN).
+    ; warning
+    @(170.0 mm, 117.5 mm): PTH pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_IN] of J601
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_IN) doesn't match net given by schematic (/CIRCUIT/CE_IN).
+    ; warning
+    @(170.0 mm, 132.5 mm): PTH pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_IN] of J602
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_IN) doesn't match net given by schematic (/CIRCUIT/CO2_IN).
+    ; warning
+    @(170.0 mm, 147.5 mm): PTH pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_IN] of J603
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P) doesn't match net given by schematic (/CIRCUIT/SHAKER_P).
+    ; warning
+    @(220.915 mm, 105.35 mm): PTH pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P] of J701
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N) doesn't match net given by schematic (/CIRCUIT/SHAKER_N).
+    ; warning
+    @(223.455 mm, 105.35 mm): PTH pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N] of J701
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/GATE_RPP) doesn't match net given by schematic (/CIRCUIT/GATE_RPP).
+    ; warning
+    @(244.786 mm, 110.641999 mm): Pad 1 [/ARCHITECTURE/POWER/GATE_RPP] of Q401 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/VBATT_FUSED) doesn't match net given by schematic (/CIRCUIT/VBATT_FUSED).
+    ; warning
+    @(242.5 mm, 117.5 mm): Pad 2 [/ARCHITECTURE/POWER/VBATT_FUSED] of Q401 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/GATE_RPP) doesn't match net given by schematic (/CIRCUIT/GATE_RPP).
+    ; warning
+    @(245.5 mm, 106.285499 mm): Pad 1 [/ARCHITECTURE/POWER/GATE_RPP] of R401 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/GATE_RPP) doesn't match net given by schematic (/CIRCUIT/GATE_RPP).
+    ; warning
+    @(243.325 mm, 108.285499 mm): Pad 1 [/ARCHITECTURE/POWER/GATE_RPP] of R402 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/LED_GRN) doesn't match net given by schematic (/CIRCUIT/LED_GRN).
+    ; warning
+    @(206.3018 mm, 159.325 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/LED_GRN] of R501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/LED_RED) doesn't match net given by schematic (/CIRCUIT/LED_RED).
+    ; warning
+    @(206.3018 mm, 155.515 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/LED_RED] of R502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/SWCLK) doesn't match net given by schematic (/CIRCUIT/SWCLK).
+    ; warning
+    @(222.280061 mm, 152.939735 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/SWCLK] of R503 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/SWDIO) doesn't match net given by schematic (/CIRCUIT/SWDIO).
+    ; warning
+    @(224.210462 mm, 152.17606 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/SWDIO] of R504 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/~{RST}) doesn't match net given by schematic (/CIRCUIT/~{RST}).
+    ; warning
+    @(226.455526 mm, 154.421126 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/~{RST}] of R505 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/SWO) doesn't match net given by schematic (/CIRCUIT/SWO).
+    ; warning
+    @(224.525125 mm, 155.184801 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/SWO] of R506 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/XTAL) doesn't match net given by schematic (/CIRCUIT/XTAL).
+    ; warning
+    @(228.286 mm, 141.609 mm): Pad 1 [/ARCHITECTURE/DIGITAL AND HMI/XTAL] of R507 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/OSC_OUT) doesn't match net given by schematic (/CIRCUIT/OSC_OUT).
+    ; warning
+    @(228.286 mm, 143.259 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/OSC_OUT] of R507 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/CC1) doesn't match net given by schematic (/CIRCUIT/CC1).
+    ; warning
+    @(252.225 mm, 151.07 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/CC1] of R509 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/CC2) doesn't match net given by schematic (/CIRCUIT/CC2).
+    ; warning
+    @(252.225 mm, 154.245 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/CC2] of R510 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_IN) doesn't match net given by schematic (/CIRCUIT/ECG_IN).
+    ; warning
+    @(176.675 mm, 117.5 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_IN] of R601 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1_N).
+    ; warning
+    @(178.325 mm, 117.5 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N] of R601 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_IN) doesn't match net given by schematic (/CIRCUIT/CE_IN).
+    ; warning
+    @(176.675 mm, 132.5 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_IN] of R602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN) doesn't match net given by schematic (/CIRCUIT/CE_BUFF_IN).
+    ; warning
+    @(178.325 mm, 132.5 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN] of R602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_IN) doesn't match net given by schematic (/CIRCUIT/CO2_IN).
+    ; warning
+    @(176.675 mm, 147.5 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_IN] of R603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN) doesn't match net given by schematic (/CIRCUIT/CO2_BUFF_IN).
+    ; warning
+    @(178.325 mm, 147.5 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN] of R603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1).
+    ; warning
+    @(186.63 mm, 115.955 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1] of R604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1_N).
+    ; warning
+    @(186.63 mm, 117.605 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N] of R604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1).
+    ; warning
+    @(189.17 mm, 121.86 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1] of R605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_MID) doesn't match net given by schematic (/CIRCUIT/ECG_SK_MID).
+    ; warning
+    @(189.17 mm, 123.51 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_MID] of R605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF) doesn't match net given by schematic (/CIRCUIT/CE_BUFF).
+    ; warning
+    @(189.17 mm, 135.83 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF] of R606 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_MID) doesn't match net given by schematic (/CIRCUIT/CE_SK_MID).
+    ; warning
+    @(189.17 mm, 137.48 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_MID] of R606 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF) doesn't match net given by schematic (/CIRCUIT/CO2_BUFF).
+    ; warning
+    @(203.775 mm, 150.435 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF] of R607 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_MID) doesn't match net given by schematic (/CIRCUIT/CO2_SK_MID).
+    ; warning
+    @(203.775 mm, 152.085 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_MID] of R607 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_MID) doesn't match net given by schematic (/CIRCUIT/ECG_SK_MID).
+    ; warning
+    @(192.98 mm, 123.51 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_MID] of R608 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_RC) doesn't match net given by schematic (/CIRCUIT/ECG_SK_RC).
+    ; warning
+    @(192.98 mm, 121.86 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_RC] of R608 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_MID) doesn't match net given by schematic (/CIRCUIT/CE_SK_MID).
+    ; warning
+    @(192.98 mm, 137.48 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_MID] of R609 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_RC) doesn't match net given by schematic (/CIRCUIT/CE_SK_RC).
+    ; warning
+    @(192.98 mm, 135.83 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_RC] of R609 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_MID) doesn't match net given by schematic (/CIRCUIT/CO2_SK_MID).
+    ; warning
+    @(205.68 mm, 152.085 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_MID] of R610 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_RC) doesn't match net given by schematic (/CIRCUIT/CO2_SK_RC).
+    ; warning
+    @(205.68 mm, 150.435 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_RC] of R610 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_N) doesn't match net given by schematic (/CIRCUIT/CE_SK_N).
+    ; warning
+    @(197.235 mm, 132.655 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_N] of R611 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_N) doesn't match net given by schematic (/CIRCUIT/CE_SK_N).
+    ; warning
+    @(195.52 mm, 132.845 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_N] of R612 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT) doesn't match net given by schematic (/CIRCUIT/CE_FILT).
+    ; warning
+    @(195.52 mm, 131.195 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT] of R612 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_GAIN_N) doesn't match net given by schematic (/CIRCUIT/CO2_GAIN_N).
+    ; warning
+    @(211.9284 mm, 147.45 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_GAIN_N] of R613 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT) doesn't match net given by schematic (/CIRCUIT/ECG_FILT).
+    ; warning
+    @(195.52 mm, 117.415 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT] of R614 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N) doesn't match net given by schematic (/CIRCUIT/ECG_GAIN_N).
+    ; warning
+    @(197.17 mm, 117.415 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N] of R614 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT) doesn't match net given by schematic (/CIRCUIT/CE_FILT).
+    ; warning
+    @(219.191963 mm, 145.330437 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT] of R615 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ADC_CE) doesn't match net given by schematic (ADC_CE).
+    ; warning
+    @(220.358689 mm, 146.497163 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ADC_CE] of R615 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_OUT) doesn't match net given by schematic (/CIRCUIT/SERVO_OUT).
+    ; warning
+    @(202.885 mm, 114.24 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_OUT] of R616 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N) doesn't match net given by schematic (/CIRCUIT/ECG_GAIN_N).
+    ; warning
+    @(201.235 mm, 114.24 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N] of R616 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_GAIN_N) doesn't match net given by schematic (/CIRCUIT/CO2_GAIN_N).
+    ; warning
+    @(210.125 mm, 147.45 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_GAIN_N] of R617 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT) doesn't match net given by schematic (/CIRCUIT/CO2_OUT).
+    ; warning
+    @(210.125 mm, 145.8 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT] of R617 on L1 (Sig, PWR)
+[footprint_symbol_mismatch]: Value (R618) doesn't match symbol value (249k).
+    ; warning
+    @(201.235 mm, 116.78 mm): Footprint R618
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N) doesn't match net given by schematic (/CIRCUIT/ECG_GAIN_N).
+    ; warning
+    @(201.235 mm, 117.605 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N] of R618 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT) doesn't match net given by schematic (/CIRCUIT/ECG_OUT).
+    ; warning
+    @(201.235 mm, 115.955 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT] of R618 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT) doesn't match net given by schematic (/CIRCUIT/CO2_OUT).
+    ; warning
+    @(220.895437 mm, 144.744563 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT] of R619 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ADC_CO2) doesn't match net given by schematic (ADC_CO2).
+    ; warning
+    @(222.062163 mm, 143.577837 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ADC_CO2] of R619 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT) doesn't match net given by schematic (/CIRCUIT/ECG_OUT).
+    ; warning
+    @(226.051637 mm, 143.501637 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT] of R620 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ADC_ECG) doesn't match net given by schematic (ADC_ECG).
+    ; warning
+    @(227.218363 mm, 144.668363 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ADC_ECG] of R620 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_N) doesn't match net given by schematic (/CIRCUIT/SERVO_N).
+    ; warning
+    @(212.665 mm, 119.765 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_N] of R621 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_P) doesn't match net given by schematic (/CIRCUIT/SERVO_P).
+    ; warning
+    @(208.855 mm, 121.225 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_P] of R622 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT) doesn't match net given by schematic (/CIRCUIT/ECG_OUT).
+    ; warning
+    @(208.855 mm, 122.875 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT] of R622 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/DAC_SHAKER) doesn't match net given by schematic (DAC_SHAKER).
+    ; warning
+    @(212.92 mm, 127.575 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/DAC_SHAKER] of R701 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_MID) doesn't match net given by schematic (/CIRCUIT/SHK_SK1_MID).
+    ; warning
+    @(214.57 mm, 127.575 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_MID] of R701 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_MID) doesn't match net given by schematic (/CIRCUIT/SHK_SK1_MID).
+    ; warning
+    @(216.095 mm, 127.575 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_MID] of R702 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_RC) doesn't match net given by schematic (/CIRCUIT/SHK_SK1_RC).
+    ; warning
+    @(217.745 mm, 127.575 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_RC] of R702 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1) doesn't match net given by schematic (/CIRCUIT/SHK_FILT1).
+    ; warning
+    @(221.365 mm, 130.75 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1] of R703 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_MID) doesn't match net given by schematic (/CIRCUIT/SHK_SK2_MID).
+    ; warning
+    @(223.015 mm, 130.75 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_MID] of R703 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_MID) doesn't match net given by schematic (/CIRCUIT/SHK_SK2_MID).
+    ; warning
+    @(228.285 mm, 129.48 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_MID] of R704 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_RC) doesn't match net given by schematic (/CIRCUIT/SHK_SK2_RC).
+    ; warning
+    @(226.635 mm, 129.48 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_RC] of R704 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK) doesn't match net given by schematic (/CIRCUIT/VREF_SHK).
+    ; warning
+    @(221.81 mm, 112.335 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK] of R705 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK) doesn't match net given by schematic (/CIRCUIT/VREF_SHK).
+    ; warning
+    @(220.285 mm, 112.335 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK] of R706 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2) doesn't match net given by schematic (/CIRCUIT/SHK_FILT2).
+    ; warning
+    @(221.365 mm, 121.86 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2] of R707 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_N) doesn't match net given by schematic (/CIRCUIT/SHK_N).
+    ; warning
+    @(223.015 mm, 121.86 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_N] of R707 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N) doesn't match net given by schematic (/CIRCUIT/SHAKER_N).
+    ; warning
+    @(226.635 mm, 117.225 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N] of R708 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_N) doesn't match net given by schematic (/CIRCUIT/SHK_N).
+    ; warning
+    @(226.635 mm, 118.875 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_N] of R708 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P) doesn't match net given by schematic (/CIRCUIT/SHAKER_P).
+    ; warning
+    @(221.2634 mm, 107.89 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P] of R709 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N) doesn't match net given by schematic (/CIRCUIT/SHAKER_N).
+    ; warning
+    @(222.9134 mm, 107.89 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N] of R709 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/BTN) doesn't match net given by schematic (/CIRCUIT/BTN).
+    ; warning
+    @(188.075 mm, 159.905 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/BTN] of SW501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/BTN) doesn't match net given by schematic (/CIRCUIT/BTN).
+    ; warning
+    @(194.075 mm, 159.905 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/BTN] of SW501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/POWER/VBATT_RAW) doesn't match net given by schematic (/CIRCUIT/VBATT_RAW).
+    ; warning
+    @(252.67 mm, 127.575 mm): Pad 1 [/ARCHITECTURE/POWER/VBATT_RAW] of TP401 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT) doesn't match net given by schematic (/CIRCUIT/ECG_FILT).
+    ; warning
+    @(199.33 mm, 109.16 mm): PTH pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT] of TP601
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT) doesn't match net given by schematic (/CIRCUIT/CE_FILT).
+    ; warning
+    @(199.33 mm, 126.94 mm): PTH pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT] of TP602
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT) doesn't match net given by schematic (/CIRCUIT/CO2_OUT).
+    ; warning
+    @(199.33 mm, 139.64 mm): PTH pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT] of TP603
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT) doesn't match net given by schematic (/CIRCUIT/ECG_OUT).
+    ; warning
+    @(212.665 mm, 109.16 mm): PTH pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT] of TP604
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/OSC_IN) doesn't match net given by schematic (/CIRCUIT/OSC_IN).
+    ; warning
+    @(230.177043 mm, 144.163616 mm): Pad 2 [/ARCHITECTURE/DIGITAL AND HMI/OSC_IN] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/OSC_OUT) doesn't match net given by schematic (/CIRCUIT/OSC_OUT).
+    ; warning
+    @(229.611357 mm, 144.729301 mm): Pad 3 [/ARCHITECTURE/DIGITAL AND HMI/OSC_OUT] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/~{RST}) doesn't match net given by schematic (/CIRCUIT/~{RST}).
+    ; warning
+    @(229.045672 mm, 145.294986 mm): Pad 4 [/ARCHITECTURE/DIGITAL AND HMI/~{RST}] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ADC_ECG) doesn't match net given by schematic (ADC_ECG).
+    ; warning
+    @(228.479986 mm, 145.860672 mm): Pad 5 [/ARCHITECTURE/ANALOGUE INPUTS/ADC_ECG] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ADC_CO2) doesn't match net given by schematic (ADC_CO2).
+    ; warning
+    @(227.914301 mm, 146.426357 mm): Pad 6 [/ARCHITECTURE/ANALOGUE INPUTS/ADC_CO2] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/DAC_SHAKER) doesn't match net given by schematic (DAC_SHAKER).
+    ; warning
+    @(226.78293 mm, 149.502272 mm): Pad 9 [/ARCHITECTURE/ANALOGUE OUTPUTS/DAC_SHAKER] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ADC_CE) doesn't match net given by schematic (ADC_CE).
+    ; warning
+    @(228.479986 mm, 151.199328 mm): Pad 12 [/ARCHITECTURE/ANALOGUE INPUTS/ADC_CE] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/VDDA) doesn't match net given by schematic (VDDA).
+    ; warning
+    @(230.177043 mm, 152.896384 mm): Pad 15 [/ARCHITECTURE/DIGITAL AND HMI/VDDA] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/BTN) doesn't match net given by schematic (/CIRCUIT/BTN).
+    ; warning
+    @(233.252957 mm, 152.896384 mm): Pad 18 [/ARCHITECTURE/DIGITAL AND HMI/BTN] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/LED_RED) doesn't match net given by schematic (/CIRCUIT/LED_RED).
+    ; warning
+    @(233.818643 mm, 152.330699 mm): Pad 19 [/ARCHITECTURE/DIGITAL AND HMI/LED_RED] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/LED_GRN) doesn't match net given by schematic (/CIRCUIT/LED_GRN).
+    ; warning
+    @(234.384328 mm, 151.765014 mm): Pad 20 [/ARCHITECTURE/DIGITAL AND HMI/LED_GRN] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/A-) doesn't match net given by schematic (/CIRCUIT/A-).
+    ; warning
+    @(234.950014 mm, 151.199328 mm): Pad 21 [/ARCHITECTURE/DIGITAL AND HMI/A-] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/A+) doesn't match net given by schematic (/CIRCUIT/A+).
+    ; warning
+    @(235.515699 mm, 150.633643 mm): Pad 22 [/ARCHITECTURE/DIGITAL AND HMI/A+] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/SWDIO) doesn't match net given by schematic (/CIRCUIT/SWDIO).
+    ; warning
+    @(236.081384 mm, 150.067957 mm): Pad 23 [/ARCHITECTURE/DIGITAL AND HMI/SWDIO] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/SWCLK) doesn't match net given by schematic (/CIRCUIT/SWCLK).
+    ; warning
+    @(236.64707 mm, 149.502272 mm): Pad 24 [/ARCHITECTURE/DIGITAL AND HMI/SWCLK] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/SWO) doesn't match net given by schematic (/CIRCUIT/SWO).
+    ; warning
+    @(236.081384 mm, 146.992043 mm): Pad 26 [/ARCHITECTURE/DIGITAL AND HMI/SWO] of U501 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/D-) doesn't match net given by schematic (/CIRCUIT/D-).
+    ; warning
+    @(248.6375 mm, 148.449999 mm): Pad 1 [/ARCHITECTURE/DIGITAL AND HMI/D-] of U502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/D+) doesn't match net given by schematic (/CIRCUIT/D+).
+    ; warning
+    @(248.6375 mm, 146.550001 mm): Pad 3 [/ARCHITECTURE/DIGITAL AND HMI/D+] of U502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/A+) doesn't match net given by schematic (/CIRCUIT/A+).
+    ; warning
+    @(246.3625 mm, 146.550001 mm): Pad 4 [/ARCHITECTURE/DIGITAL AND HMI/A+] of U502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/A-) doesn't match net given by schematic (/CIRCUIT/A-).
+    ; warning
+    @(246.3625 mm, 148.449999 mm): Pad 6 [/ARCHITECTURE/DIGITAL AND HMI/A-] of U502 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF) doesn't match net given by schematic (/CIRCUIT/CO2_BUFF).
+    ; warning
+    @(188.6 mm, 144.72 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF] of U601 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF) doesn't match net given by schematic (/CIRCUIT/CO2_BUFF).
+    ; warning
+    @(188.6 mm, 145.99 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF] of U601 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN) doesn't match net given by schematic (/CIRCUIT/CO2_BUFF_IN).
+    ; warning
+    @(188.6 mm, 147.26 mm): Pad 3 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_BUFF_IN] of U601 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT) doesn't match net given by schematic (/CIRCUIT/CO2_FILT).
+    ; warning
+    @(203.205 mm, 144.72 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT] of U602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT) doesn't match net given by schematic (/CIRCUIT/CO2_FILT).
+    ; warning
+    @(203.205 mm, 145.99 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT] of U602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_RC) doesn't match net given by schematic (/CIRCUIT/CO2_SK_RC).
+    ; warning
+    @(203.205 mm, 147.26 mm): Pad 3 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_SK_RC] of U602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT) doesn't match net given by schematic (/CIRCUIT/CO2_FILT).
+    ; warning
+    @(208.155 mm, 148.53 mm): Pad 5 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_FILT] of U602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_GAIN_N) doesn't match net given by schematic (/CIRCUIT/CO2_GAIN_N).
+    ; warning
+    @(208.155 mm, 147.26 mm): Pad 6 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_GAIN_N] of U602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT) doesn't match net given by schematic (/CIRCUIT/CO2_OUT).
+    ; warning
+    @(208.155 mm, 145.99 mm): Pad 7 [/ARCHITECTURE/ANALOGUE INPUTS/CO2_OUT] of U602 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF) doesn't match net given by schematic (/CIRCUIT/CE_BUFF).
+    ; warning
+    @(188.6 mm, 130.115 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF] of U603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF) doesn't match net given by schematic (/CIRCUIT/CE_BUFF).
+    ; warning
+    @(188.6 mm, 131.385 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF] of U603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN) doesn't match net given by schematic (/CIRCUIT/CE_BUFF_IN).
+    ; warning
+    @(188.6 mm, 132.655 mm): Pad 3 [/ARCHITECTURE/ANALOGUE INPUTS/CE_BUFF_IN] of U603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_RC) doesn't match net given by schematic (/CIRCUIT/CE_SK_RC).
+    ; warning
+    @(193.55 mm, 133.925 mm): Pad 5 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_RC] of U603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_N) doesn't match net given by schematic (/CIRCUIT/CE_SK_N).
+    ; warning
+    @(193.55 mm, 132.655 mm): Pad 6 [/ARCHITECTURE/ANALOGUE INPUTS/CE_SK_N] of U603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT) doesn't match net given by schematic (/CIRCUIT/CE_FILT).
+    ; warning
+    @(193.55 mm, 131.385 mm): Pad 7 [/ARCHITECTURE/ANALOGUE INPUTS/CE_FILT] of U603 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1).
+    ; warning
+    @(188.6 mm, 116.145 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1] of U604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N) doesn't match net given by schematic (/CIRCUIT/ECG_LPF1_N).
+    ; warning
+    @(188.6 mm, 117.415 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_LPF1_N] of U604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_RC) doesn't match net given by schematic (/CIRCUIT/ECG_SK_RC).
+    ; warning
+    @(193.55 mm, 119.955 mm): Pad 5 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_SK_RC] of U604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT) doesn't match net given by schematic (/CIRCUIT/ECG_FILT).
+    ; warning
+    @(193.55 mm, 118.685 mm): Pad 6 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT] of U604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT) doesn't match net given by schematic (/CIRCUIT/ECG_FILT).
+    ; warning
+    @(193.55 mm, 117.415 mm): Pad 7 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_FILT] of U604 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT) doesn't match net given by schematic (/CIRCUIT/ECG_OUT).
+    ; warning
+    @(203.205 mm, 116.145 mm): Pad 1 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_OUT] of U605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N) doesn't match net given by schematic (/CIRCUIT/ECG_GAIN_N).
+    ; warning
+    @(203.205 mm, 117.415 mm): Pad 2 [/ARCHITECTURE/ANALOGUE INPUTS/ECG_GAIN_N] of U605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_P) doesn't match net given by schematic (/CIRCUIT/SERVO_P).
+    ; warning
+    @(208.155 mm, 119.955 mm): Pad 5 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_P] of U605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_N) doesn't match net given by schematic (/CIRCUIT/SERVO_N).
+    ; warning
+    @(208.155 mm, 118.685 mm): Pad 6 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_N] of U605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE INPUTS/SERVO_OUT) doesn't match net given by schematic (/CIRCUIT/SERVO_OUT).
+    ; warning
+    @(208.155 mm, 117.415 mm): Pad 7 [/ARCHITECTURE/ANALOGUE INPUTS/SERVO_OUT] of U605 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1) doesn't match net given by schematic (/CIRCUIT/SHK_FILT1).
+    ; warning
+    @(219.715 mm, 125.035 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1] of U701 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1) doesn't match net given by schematic (/CIRCUIT/SHK_FILT1).
+    ; warning
+    @(219.715 mm, 126.305 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT1] of U701 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_RC) doesn't match net given by schematic (/CIRCUIT/SHK_SK1_RC).
+    ; warning
+    @(219.715 mm, 127.575 mm): Pad 3 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK1_RC] of U701 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_RC) doesn't match net given by schematic (/CIRCUIT/SHK_SK2_RC).
+    ; warning
+    @(224.665 mm, 128.845 mm): Pad 5 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_SK2_RC] of U701 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2) doesn't match net given by schematic (/CIRCUIT/SHK_FILT2).
+    ; warning
+    @(224.665 mm, 127.575 mm): Pad 6 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2] of U701 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2) doesn't match net given by schematic (/CIRCUIT/SHK_FILT2).
+    ; warning
+    @(224.665 mm, 126.305 mm): Pad 7 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2] of U701 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P) doesn't match net given by schematic (/CIRCUIT/SHAKER_P).
+    ; warning
+    @(219.715 mm, 116.145 mm): Pad 1 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P] of U702 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P) doesn't match net given by schematic (/CIRCUIT/SHAKER_P).
+    ; warning
+    @(219.715 mm, 117.415 mm): Pad 2 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_P] of U702 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2) doesn't match net given by schematic (/CIRCUIT/SHK_FILT2).
+    ; warning
+    @(219.715 mm, 118.685 mm): Pad 3 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_FILT2] of U702 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK) doesn't match net given by schematic (/CIRCUIT/VREF_SHK).
+    ; warning
+    @(224.665 mm, 119.955 mm): Pad 5 [/ARCHITECTURE/ANALOGUE OUTPUTS/VREF_SHK] of U702 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_N) doesn't match net given by schematic (/CIRCUIT/SHK_N).
+    ; warning
+    @(224.665 mm, 118.685 mm): Pad 6 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHK_N] of U702 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N) doesn't match net given by schematic (/CIRCUIT/SHAKER_N).
+    ; warning
+    @(224.665 mm, 117.415 mm): Pad 7 [/ARCHITECTURE/ANALOGUE OUTPUTS/SHAKER_N] of U702 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/OSC_IN) doesn't match net given by schematic (/CIRCUIT/OSC_IN).
+    ; warning
+    @(231.615001 mm, 135.83 mm): PTH pad 1 [/ARCHITECTURE/DIGITAL AND HMI/OSC_IN] of Y501
+[net_conflict]: Pad net (/ARCHITECTURE/DIGITAL AND HMI/XTAL) doesn't match net given by schematic (/CIRCUIT/XTAL).
+    ; warning
+    @(226.735001 mm, 135.83 mm): PTH pad 2 [/ARCHITECTURE/DIGITAL AND HMI/XTAL] of Y501
 
 ** End of Report **
