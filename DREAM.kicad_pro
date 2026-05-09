@@ -58,56 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "drill_out_of_range|256220000|144610000|de5980c2-a35c-4d04-86f4-e66d5901d09d|00000000-0000-0000-0000-000000000000",
-          "footprint"
-        ],
-        [
-          "drill_out_of_range|256220000|150390000|dca114a3-ba31-4eac-88cf-9c4c51bb327c|00000000-0000-0000-0000-000000000000",
-          "footprint"
-        ],
-        [
-          "lib_footprint_mismatch|180000000|114977500|7325687f-b1c9-49c5-b7e1-9859e17b4cf1|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|180000000|119977500|7cf0cf5e-eefd-4320-92c5-d4dd98cb46b1|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|180000000|129977500|24343cab-9499-4d9e-8485-472072679c4a|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|180000000|134977500|2879529e-4b00-4343-8aa7-85ed270893a6|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|180000000|144977500|44efda24-9ec1-4e11-b7d7-a7b991d71bb6|00000000-0000-0000-0000-000000000000",
-          "v"
-        ],
-        [
-          "lib_footprint_mismatch|180000000|149977500|060500bb-f995-4c51-a659-782cd92ea3ec|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|242500000|137587500|4ca0883a-1cdf-4d8c-8efb-4d84b5b7ba13|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|247500000|147587500|004e45f2-0cbd-4211-8041-690df78c2110|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|254500000|116900000|9d13c0a5-44ff-45e6-a839-0264a57e18be|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ],
-        [
-          "lib_footprint_mismatch|258054800|132528000|9be9812c-f2ac-4ba8-b9d0-d7e3420982fc|00000000-0000-0000-0000-000000000000",
-          "silkscreen"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
