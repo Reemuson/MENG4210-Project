@@ -11223,7 +11223,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 224.79) (xy 267.97 241.3)
+			(xy 267.97 229.87) (xy 267.97 241.3)
 		)
 		(stroke
 			(width 0)
@@ -15244,6 +15244,50 @@
 			)
 		)
 	)
+	(global_label "VREF_ECG"
+		(shape passive)
+		(at 83.82 217.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49d31ab5-20e9-49be-abe5-d0261391c2ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 206.0433 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VREF_ECG"
+		(shape passive)
+		(at 177.8 217.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54044cd7-3569-4725-887e-ec53f667d42a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 206.0433 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DAC_SHAKER"
 		(shape input)
 		(at 354.33 265.43 180)
@@ -15301,6 +15345,28 @@
 		(uuid "95b2add0-fda1-4ef7-97b4-44b3271cb6e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.9004 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VREF_ECG"
+		(shape passive)
+		(at 267.97 229.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bf651bc-6fc6-4a4b-b91e-08eff9cd50f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.97 218.7433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,6 +15442,28 @@
 			)
 		)
 	)
+	(global_label "VREF_ECG"
+		(shape passive)
+		(at 307.34 292.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbdd19fe-7c87-485f-a233-07219ecbf709")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.34 280.9733 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_ECG"
 		(shape input)
 		(at 542.29 82.55 0)
@@ -15389,6 +15477,28 @@
 		(uuid "d5542811-c018-4172-acda-6ee233a64688")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 553.5604 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VREF_ECG"
+		(shape passive)
+		(at 247.65 224.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5adae01-554b-4129-98e6-4e3fcc0ebc40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 213.6633 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19320,25 +19430,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "87df6739-d82c-4854-b308-888b787e93f9")
+			(uuid "87df6739-d82c-4854-b308-888b787e93fb")
 		)
 		(pin "2"
 			(uuid "fa276263-3c76-43a0-aa38-920e3cf013a9")
 		)
 		(pin "4"
-			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175b")
+			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175d")
 		)
 		(pin "7"
-			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16a8")
+			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16aa")
 		)
 		(pin "8"
-			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc74")
+			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc76")
 		)
 		(pin "3"
 			(uuid "bec5c172-2114-4537-8eec-c821570e2bf1")
 		)
 		(pin "5"
-			(uuid "da690b13-73bd-444e-92b2-5282a9502b50")
+			(uuid "da690b13-73bd-444e-92b2-5282a9502b52")
 		)
 		(pin "1"
 			(uuid "37acb847-b2ad-42c0-a195-fe6aae7d5191")
@@ -20232,25 +20342,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "87df6739-d82c-4854-b308-888b787e93fa")
+			(uuid "87df6739-d82c-4854-b308-888b787e93fc")
 		)
 		(pin "2"
 			(uuid "fa276263-3c76-43a0-aa38-920e3cf013aa")
 		)
 		(pin "4"
-			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175c")
+			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175e")
 		)
 		(pin "7"
-			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16a9")
+			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16ab")
 		)
 		(pin "8"
-			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc75")
+			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc77")
 		)
 		(pin "3"
 			(uuid "bec5c172-2114-4537-8eec-c821570e2bf2")
 		)
 		(pin "5"
-			(uuid "da690b13-73bd-444e-92b2-5282a9502b51")
+			(uuid "da690b13-73bd-444e-92b2-5282a9502b53")
 		)
 		(pin "1"
 			(uuid "37acb847-b2ad-42c0-a195-fe6aae7d5192")
@@ -22482,25 +22592,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "87df6739-d82c-4854-b308-888b787e93fb")
+			(uuid "87df6739-d82c-4854-b308-888b787e93fd")
 		)
 		(pin "2"
 			(uuid "004fb1ad-1d22-4fef-8543-bbbe27ebcde5")
 		)
 		(pin "4"
-			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175d")
+			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175f")
 		)
 		(pin "7"
-			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16aa")
+			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16ac")
 		)
 		(pin "8"
-			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc76")
+			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc78")
 		)
 		(pin "3"
 			(uuid "c270e8df-9c0e-4d6c-bd88-8d6f922545f4")
 		)
 		(pin "5"
-			(uuid "da690b13-73bd-444e-92b2-5282a9502b52")
+			(uuid "da690b13-73bd-444e-92b2-5282a9502b54")
 		)
 		(pin "1"
 			(uuid "1a665f14-7fc7-4144-ab7b-0350e7fca7d2")
@@ -22639,81 +22749,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 247.65 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4da6e284-7a73-4739-b50b-a58493d46b3c")
-		(property "Reference" "#PWR0630"
-			(at 247.65 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREF_ECG"
-			(at 247.65 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VREF_ECG\""
-			(at 247.65 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 247.65 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cdb8ac0-d745-4f6b-a540-093def989376")
-		)
-		(instances
-			(project "DREAM"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR0630")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 513.08 298.45 0)
 		(unit 2)
@@ -22803,25 +22838,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "87df6739-d82c-4854-b308-888b787e93fc")
+			(uuid "87df6739-d82c-4854-b308-888b787e93fe")
 		)
 		(pin "2"
 			(uuid "004fb1ad-1d22-4fef-8543-bbbe27ebcde6")
 		)
 		(pin "4"
-			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175e")
+			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed51760")
 		)
 		(pin "7"
-			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16ab")
+			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16ad")
 		)
 		(pin "8"
-			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc77")
+			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc79")
 		)
 		(pin "3"
 			(uuid "c270e8df-9c0e-4d6c-bd88-8d6f922545f5")
 		)
 		(pin "5"
-			(uuid "da690b13-73bd-444e-92b2-5282a9502b53")
+			(uuid "da690b13-73bd-444e-92b2-5282a9502b55")
 		)
 		(pin "1"
 			(uuid "1a665f14-7fc7-4144-ab7b-0350e7fca7d3")
@@ -24833,81 +24868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 267.97 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e6defae-bf34-4008-ac9d-002f470e0103")
-		(property "Reference" "#PWR0631"
-			(at 267.97 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREF_ECG"
-			(at 267.97 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VREF_ECG\""
-			(at 267.97 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 267.97 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd352a9a-9248-438a-9bcb-84472c348c55")
-		)
-		(instances
-			(project "DREAM"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR0631")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 438.15 274.32 0)
 		(unit 1)
@@ -25354,81 +25314,6 @@
 			(project "DREAM"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(reference "C511")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 307.34 292.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6151828e-dcfd-4418-b09b-6ae6668ccfa6")
-		(property "Reference" "#PWR0641"
-			(at 307.34 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREF_ECG"
-			(at 307.34 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VREF_ECG\""
-			(at 307.34 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 307.34 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e767bd83-d9cd-4e43-84a6-2f6633e320ab")
-		)
-		(instances
-			(project "DREAM"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR0641")
 					(unit 1)
 				)
 			)
@@ -31085,25 +30970,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "87df6739-d82c-4854-b308-888b787e93fd")
+			(uuid "87df6739-d82c-4854-b308-888b787e93ff")
 		)
 		(pin "2"
 			(uuid "bc495cb2-9600-4c23-9314-269ec11757b6")
 		)
 		(pin "4"
-			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175f")
+			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed51761")
 		)
 		(pin "7"
-			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16ac")
+			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16ae")
 		)
 		(pin "8"
-			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc78")
+			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc7a")
 		)
 		(pin "3"
 			(uuid "30b0f401-db9b-4637-95f7-4fe12e166ce7")
 		)
 		(pin "5"
-			(uuid "da690b13-73bd-444e-92b2-5282a9502b54")
+			(uuid "da690b13-73bd-444e-92b2-5282a9502b56")
 		)
 		(pin "1"
 			(uuid "20a9b1c6-a8c9-4d8f-99d0-4d65ffa8cfa0")
@@ -31226,81 +31111,6 @@
 			(project "DREAM"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(reference "C510")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 177.8 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a79553ce-1e98-4b5d-9505-872f83f1f98f")
-		(property "Reference" "#PWR0624"
-			(at 177.8 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREF_ECG"
-			(at 177.8 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VREF_ECG\""
-			(at 177.8 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 177.8 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45ccf5f0-ee4c-4a80-a2df-39944d4f0367")
-		)
-		(instances
-			(project "DREAM"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR0624")
 					(unit 1)
 				)
 			)
@@ -33293,25 +33103,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "87df6739-d82c-4854-b308-888b787e93fe")
+			(uuid "87df6739-d82c-4854-b308-888b787e9400")
 		)
 		(pin "2"
 			(uuid "bc495cb2-9600-4c23-9314-269ec11757b7")
 		)
 		(pin "4"
-			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed51760")
+			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed51762")
 		)
 		(pin "7"
-			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16ad")
+			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16af")
 		)
 		(pin "8"
-			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc79")
+			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc7b")
 		)
 		(pin "3"
 			(uuid "30b0f401-db9b-4637-95f7-4fe12e166ce8")
 		)
 		(pin "5"
-			(uuid "da690b13-73bd-444e-92b2-5282a9502b55")
+			(uuid "da690b13-73bd-444e-92b2-5282a9502b57")
 		)
 		(pin "1"
 			(uuid "20a9b1c6-a8c9-4d8f-99d0-4d65ffa8cfa1")
@@ -34389,25 +34199,25 @@
 			)
 		)
 		(pin "6"
-			(uuid "87df6739-d82c-4854-b308-888b787e93fb")
+			(uuid "87df6739-d82c-4854-b308-888b787e9401")
 		)
 		(pin "2"
 			(uuid "fa276263-3c76-43a0-aa38-920e3cf013ab")
 		)
 		(pin "4"
-			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed5175d")
+			(uuid "0ca7390a-59d2-438d-a5d9-e0a46ed51763")
 		)
 		(pin "7"
-			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16aa")
+			(uuid "a01a8069-e0e6-4fcd-8b4f-14c4c9dc16b0")
 		)
 		(pin "8"
-			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc76")
+			(uuid "ab4ecb5b-49e7-4390-bb3a-e7a0aa2dbc7c")
 		)
 		(pin "3"
 			(uuid "bec5c172-2114-4537-8eec-c821570e2bf3")
 		)
 		(pin "5"
-			(uuid "da690b13-73bd-444e-92b2-5282a9502b52")
+			(uuid "da690b13-73bd-444e-92b2-5282a9502b58")
 		)
 		(pin "1"
 			(uuid "37acb847-b2ad-42c0-a195-fe6aae7d5193")
@@ -38049,81 +37859,6 @@
 			(project "DREAM"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(reference "#PWR0517")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 83.82 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f23771bf-c456-48f0-b9a2-8c96904b4b2f")
-		(property "Reference" "#PWR0615"
-			(at 83.82 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREF_ECG"
-			(at 83.82 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VREF_ECG\""
-			(at 83.82 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 83.82 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f134f45c-4ab0-4312-b6cd-9a3ec839df69")
-		)
-		(instances
-			(project "DREAM"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR0615")
 					(unit 1)
 				)
 			)
