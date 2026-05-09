@@ -4,6 +4,8 @@
 
 ## [1.2.0] - 2026-05-09
 
+## [1.2.0] - 2026-05-09
+
 ### Added
 
 -   Added 3D models to some footprints missing them
@@ -54,6 +56,8 @@
 -   Preliminary PCB layout
 
 [Unreleased]: https://github.com/Reemuson/MENG4210-Project/compare/1.2.0...HEAD
+
+[1.2.0]: https://github.com/Reemuson/MENG4210-Project/compare/1.2.0...1.2.0
 
 [1.2.0]: https://github.com/Reemuson/MENG4210-Project/compare/1.1.0...1.2.0
 
