@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">38c414d</textvar>
-    <textvar name="GIT_HASH_SCH">38c414d</textvar>
+    <textvar name="GIT_HASH_PCB">315b6dd</textvar>
+    <textvar name="GIT_HASH_SCH">315b6dd</textvar>
     <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Project</textvar>
     <textvar name="PROJECT_NAME">MENG420 PROJ</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -113,7 +113,19 @@ Changed
 Fixed
 
 -   Add ground pour underneath uC</textvar>
-    <textvar name="RELEASE_BODY_1.2.0"/>
+    <textvar name="RELEASE_BODY_1.2.0">___________________________________
+
+Added
+
+-   Added 3D models to some footprints missing them
+
+___________________________________
+
+Fixed
+
+-   Changed gain of ECG chain to x10 from x24.9
+
+-   Compiled entire schematic into single sheet</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">09-May-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-05-09</textvar>
@@ -136,7 +148,7 @@ Fixed
     <textvar name="SHEET_NAME_17">................................</textvar>
     <textvar name="SHEET_NAME_18">................................</textvar>
     <textvar name="SHEET_NAME_19">................................</textvar>
-    <textvar name="SHEET_NAME_2">BLOCK DIAGRAM</textvar>
+    <textvar name="SHEET_NAME_2">CIRCUIT</textvar>
     <textvar name="SHEET_NAME_20">................................</textvar>
     <textvar name="SHEET_NAME_21">................................</textvar>
     <textvar name="SHEET_NAME_22">................................</textvar>
@@ -147,7 +159,7 @@ Fixed
     <textvar name="SHEET_NAME_27">................................</textvar>
     <textvar name="SHEET_NAME_28">................................</textvar>
     <textvar name="SHEET_NAME_29">................................</textvar>
-    <textvar name="SHEET_NAME_3">ARCHITECTURE</textvar>
+    <textvar name="SHEET_NAME_3">REVISION HISTORY</textvar>
     <textvar name="SHEET_NAME_30">................................</textvar>
     <textvar name="SHEET_NAME_31">................................</textvar>
     <textvar name="SHEET_NAME_32">................................</textvar>
@@ -158,12 +170,12 @@ Fixed
     <textvar name="SHEET_NAME_37">................................</textvar>
     <textvar name="SHEET_NAME_38">................................</textvar>
     <textvar name="SHEET_NAME_39">................................</textvar>
-    <textvar name="SHEET_NAME_4">POWER</textvar>
+    <textvar name="SHEET_NAME_4">................................</textvar>
     <textvar name="SHEET_NAME_40">................................</textvar>
-    <textvar name="SHEET_NAME_5">DIGITAL AND HMI</textvar>
-    <textvar name="SHEET_NAME_6">ANALOGUE INPUTS</textvar>
-    <textvar name="SHEET_NAME_7">ANALOGUE OUTPUTS</textvar>
-    <textvar name="SHEET_NAME_8">REVISION HISTORY</textvar>
+    <textvar name="SHEET_NAME_5">................................</textvar>
+    <textvar name="SHEET_NAME_6">................................</textvar>
+    <textvar name="SHEET_NAME_7">................................</textvar>
+    <textvar name="SHEET_NAME_8">................................</textvar>
     <textvar name="SHEET_NAME_9">................................</textvar>
     <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">

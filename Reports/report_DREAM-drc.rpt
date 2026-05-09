@@ -1,5 +1,5 @@
 ** Drc report for DREAM.kicad_pcb **
-** Created on 2026-05-09T09:42:46+0000 **
+** Created on 2026-05-09T09:53:02+0000 **
 
 ** Found 152 DRC violations **
 [drill_out_of_range]: Hole size out of range (rule 'MENG4210 Minimum Non-plated Hole Size' min hole 0.8000 mm; actual 0.6500 mm)
