@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+### Added
+
+- Added 3D models to some footprints missing them
+
+### Fixed
+
+- Changed gain of ECG chain to x10 from x24.9
+- Compiled entire schematic into single sheet
+
 ## [1.1.0] - 2026-04-14
 
 ### Fixed
@@ -22,7 +31,7 @@
 -   Broke out unused STM32 pins to vias
 -   Added pin 1 indicator to JTAG header
 
-## Fixed
+### Fixed
 
 -   Changed VBUS_RAW to VBUS
 -   Changed VBUS to VUSB

@@ -1,16 +1,40 @@
-*-backups
-\#auto_saved_files#
-_autosave-*
-*.lck
+# Operating system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*Zone.Identifier
+
+# Editor and temporary files
 *.bak
-*.ini
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# KiCad local state, locks, autosaves, and backups
+*.lck
 *.kicad_sch-bak
 *.kicad_pro-bak
 *.kicad_pcb-bak
 *.kicad_prl-bak
+*.kicad_dru-bak
+*-backups/
+**/*-backups/
+\#auto_saved_files#
+**/\#auto_saved_files#/
+_autosave-*
 fp-info-cache
-*Zone.Identifier
+
+# KiBot temporary working files
 kibot_*.kicad_pcb
 kibot_*.kicad_dru
 kibot_*.kicad_prl
 kibot_*.kicad_pro
+kibot_*.xml
+kibot_*.net
+
+# Local tool/config overrides
+*.ini
+kicost_config_local.yaml

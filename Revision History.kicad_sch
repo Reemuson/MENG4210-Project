@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "REVISION HISTORY")
-		(date "2026-04-06")
+		(date "2026-05-09")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -123,6 +123,29 @@
 		)
 		(uuid "61447e65-3862-4ca7-a61e-5d8506cb38bb")
 	)
+	(text_box "${RELEASE_TITLE_1.2.0}"
+		(exclude_from_sim no)
+		(at 25.4 97.79 0)
+		(size 57.15 7.62)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "70763260-e175-45a0-a419-64df0d465d0c")
+	)
 	(text_box "${RELEASE_BODY_1.0.2}"
 		(exclude_from_sim no)
 		(at 158.75 35.56 0)
@@ -188,6 +211,28 @@
 			(justify left top)
 		)
 		(uuid "a6fb4b27-7f1f-4c05-a7a2-2096237e1ecf")
+	)
+	(text_box "${RELEASE_BODY_1.2.0}"
+		(exclude_from_sim no)
+		(at 27.94 101.6 0)
+		(size 58.42 29.21)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b7c0d4e6-f1dd-4502-bb09-8e8f5863aea6")
 	)
 	(text_box "${RELEASE_TITLE_1.0.0}"
 		(exclude_from_sim no)

@@ -316,12 +316,16 @@
   "erc": {
     "erc_exclusions": [
       [
-        "lib_symbol_mismatch|2425700|1003300|66dbc80e-7307-4e9f-8f95-9c8dd15ae272|00000000-0000-0000-0000-000000000000|||",
-        "Symbol changed for better spacing"
+        "lib_symbol_mismatch|5245100|1117600|66dbc80e-7307-4e9f-8f95-9c8dd15ae272|00000000-0000-0000-0000-000000000000|||",
+        ""
       ],
       [
-        "power_pin_not_driven|965200|571500|f134f45c-4ab0-4312-b6cd-9a3ec839df69|00000000-0000-0000-0000-000000000000|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/d68b4c26-29c9-41ac-8b20-465252c2be5a|",
-        "VREF generated from opamp output"
+        "lib_symbol_mismatch|685800|1727200|ce2f26b7-0184-49fa-b514-3db3722c91dc|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|927100|2260600|f134f45c-4ab0-4312-b6cd-9a3ec839df69|00000000-0000-0000-0000-000000000000|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e|",
+        ""
       ]
     ],
     "meta": {
@@ -741,6 +745,21 @@
       "/ARCHITECTURE/POWER/VBATT_RAW": [
         "Power VBATT"
       ],
+      "/CIRCUIT/D+": [
+        "USB Diff Pair"
+      ],
+      "/CIRCUIT/D-": [
+        "USB Diff Pair"
+      ],
+      "/CIRCUIT/VBATT_FUSED": [
+        "Power VBATT"
+      ],
+      "/CIRCUIT/VBATT_RAW": [
+        "Power VBATT"
+      ],
+      "/CIRCUIT/VBUS": [
+        "Power VBUS"
+      ],
       "/PROJECT ARCHITECTURE/DIGITAL AND HMI/A+": [
         "USB Diff Pair"
       ],
@@ -803,6 +822,10 @@
       {
         "netclass": "Reference VREF",
         "pattern": "VREF_ECG"
+      },
+      {
+        "netclass": "Power 3V0",
+        "pattern": "VDDA"
       }
     ]
   },
@@ -1058,6 +1081,18 @@
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance",
+          "name": "Impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1121,28 +1156,8 @@
       "Root"
     ],
     [
-      "82da9dbf-ba38-4d08-ba35-a220fa2963b1",
-      "BLOCK DIAGRAM"
-    ],
-    [
       "c5103ceb-5325-4a84-a025-9638a412984e",
-      "ARCHITECTURE"
-    ],
-    [
-      "4a995109-9169-4160-bdba-61b9954fc2f6",
-      "POWER"
-    ],
-    [
-      "ee2c6f67-346c-4c2a-bfa4-aaa0a992ecfa",
-      "DIGITAL AND HMI"
-    ],
-    [
-      "d68b4c26-29c9-41ac-8b20-465252c2be5a",
-      "ANALOGUE INPUTS"
-    ],
-    [
-      "8fe0aa77-1043-4de2-87da-8c916c2e1a1d",
-      "ANALOGUE OUTPUTS"
+      "CIRCUIT"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
@@ -1154,7 +1169,7 @@
     "BOARD_NAME": "DREAM",
     "COMPANY": "RYAN DYNAMICS",
     "DESIGNER": "R. HICKS",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR GREEN.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TO BE NON-TENTED.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY RYAN DYNAMICS.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t100.000 \u00d7 60.000 mm\n\tBOARD THICKNESS\t\t1.600 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.300 mm\n\tMIN. HOLE (NPTH)\t\t0.650 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR GREEN.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TO BE NON-TENTED.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY RYAN DYNAMICS.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t100.000 × 60.000 mm\n\tBOARD THICKNESS\t\t1.600 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.300 mm\n\tMIN. HOLE (NPTH)\t\t0.650 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm",
     "GIT_HASH_PCB": "a15fa82",
     "GIT_HASH_SCH": "a15fa82",
     "GIT_URL": "https://github.com/Reemuson/MENG4210-Project",
@@ -1185,7 +1200,7 @@
     "SHEET_NAME_17": "................................",
     "SHEET_NAME_18": "................................",
     "SHEET_NAME_19": "................................",
-    "SHEET_NAME_2": "BLOCK DIAGRAM",
+    "SHEET_NAME_2": "CIRCUIT",
     "SHEET_NAME_20": "................................",
     "SHEET_NAME_21": "................................",
     "SHEET_NAME_22": "................................",
@@ -1196,7 +1211,7 @@
     "SHEET_NAME_27": "................................",
     "SHEET_NAME_28": "................................",
     "SHEET_NAME_29": "................................",
-    "SHEET_NAME_3": "ARCHITECTURE",
+    "SHEET_NAME_3": "REVISION HISTORY",
     "SHEET_NAME_30": "................................",
     "SHEET_NAME_31": "................................",
     "SHEET_NAME_32": "................................",
@@ -1207,12 +1222,12 @@
     "SHEET_NAME_37": "................................",
     "SHEET_NAME_38": "................................",
     "SHEET_NAME_39": "................................",
-    "SHEET_NAME_4": "POWER",
+    "SHEET_NAME_4": "................................",
     "SHEET_NAME_40": "................................",
-    "SHEET_NAME_5": "DIGITAL AND HMI",
-    "SHEET_NAME_6": "ANALOGUE INPUTS",
-    "SHEET_NAME_7": "ANALOGUE OUTPUTS",
-    "SHEET_NAME_8": "REVISION HISTORY",
+    "SHEET_NAME_5": "................................",
+    "SHEET_NAME_6": "................................",
+    "SHEET_NAME_7": "................................",
+    "SHEET_NAME_8": "................................",
     "SHEET_NAME_9": "................................",
     "VARIANT": "RELEASED"
   }
